@@ -29,7 +29,7 @@ function RecoverPower(power : int) {
 }
 
 function CheckDeath() {
-	if (usedPower > maxPower) {
+	if (usedPower > MAX_POWER) {
 		Die();
 	}
 }
