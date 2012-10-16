@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/PlayerManager.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy/BasicEnemyManager.js">
     <Files>
-      <File FileName="Assets/Scripts/Player/PlayerManager.js" Line="38" Column="2" />
+      <File FileName="Assets/Scripts/Player/PlayerManager.js" Line="3" Column="9" />
+      <File FileName="Assets/Scripts/Enemy/BasicEnemyManager.js" Line="3" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

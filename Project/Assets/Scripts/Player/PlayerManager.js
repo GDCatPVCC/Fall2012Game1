@@ -1,6 +1,6 @@
 #pragma strict
 
-var maxPower : int = 1000; //Player Max Brainpower
+private var MAX_POWER : int = 1000; //Player Max Brainpower
 private var usedPower : int = 0;
 
 function Awake() {
