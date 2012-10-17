@@ -17,6 +17,7 @@ function Update () {
 
 function TakeDamage (damageToBeDone : int) {
 	damageTaken += damageToBeDone;
+	CheckDeath();
 }
 
 function RecoverDamage (damageRecovered : int) {
@@ -27,12 +28,13 @@ function RecoverDamage (damageRecovered : int) {
 		damageTaken = 0;
 }
 
-function checkDeath() {
-	if (damageTaken > MAX_HEALTH) {
+function CheckDeath() {
+	if (damageTaken >= MAX_HEALTH) {
 		Die();
 	}
 }
 
 function Die() {
 	//TODO tell the gamemaster.
+	Destroy(this.gameObject);
 }
