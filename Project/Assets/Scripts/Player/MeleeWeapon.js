@@ -20,6 +20,8 @@ function OnCollisionEnter(collision : Collision) {
 		Debug.Log("You hit something that is doesn't have a BasicEnemyManager script attached");
 	}
 	
+	
+	
 	//I believe that in this spot, we can get the direction vector and add it to the object hit's transform
 	//I could be wrong. Needs testing
 }

@@ -36,5 +36,7 @@ function CheckDeath() {
 
 function Die() {
 	//TODO tell the gamemaster.
+	
+	//Should be changed to animation.Play("Death");
 	Destroy(this.gameObject);
 }

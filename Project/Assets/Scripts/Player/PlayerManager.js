@@ -17,6 +17,7 @@ function Update () {
 
 function UsePower(power : int) {
 	usedPower += power;
+	CheckDeath();
 }
 
 function RecoverPower(power : int) {
@@ -35,4 +36,5 @@ function CheckDeath() {
 }
 function Die() {
 	//TODO Write Die Function
+	Debug.Log("You are already dead");
 }
