@@ -9,7 +9,9 @@ function Start () {
 }
 
 function Update () {
-
+	//this checks if the GameMaster runs...
+	//and it DOES
+	//Debug.Log("I'm alive!");
 }
 
 //wraiths call this function from the GM when they die
