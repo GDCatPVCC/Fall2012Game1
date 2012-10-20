@@ -1,9 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Health.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameMaster.js">
     <Files>
       <File FileName="Assets/Scripts/Player/PlayerManager.js" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Health.js" Line="25" Column="48" />
+      <File FileName="Assets/Scripts/GameMaster.js" Line="3" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
