@@ -22,5 +22,6 @@ function heal(recovery : int) {
 function checkDeath() {
 	if (damageTaken >= MAX_HEALTH)
 		//alert the gameMaster
+		Destroy(this.gameObject);
 		Debug.Log(""+this.gameObject.name+" has died.");
 }
