@@ -1,13 +1,14 @@
 #pragma strict
 
 private var player : Transform;
-var speed : int = 1;
+var speed : int = 3;
 
 private var distance : float;
 private var state : int;
 private var IGNORANT : int = 0;
 private var WATCHING : int = 1;
 private var CHASING : int = 2;
+private var pissed : boolean = false;
 
 function Start () {
 	player = GameObject.FindWithTag("Player").transform;
@@ -20,12 +21,14 @@ function Update () {
 		state = IGNORANT;
 	else if (distance > 10)
 		state = WATCHING;
-	else
+	else {
 		state = CHASING;
+		pissed = true;
+	}
 	
 	//Debug.Log(state);
 	
-	if (state == WATCHING || state == CHASING) {
+	if (state == WATCHING || state == CHASING || pissed) {
 	
 		//Debug.DrawLine(player.transform.position, this.transform.position);
 	
@@ -35,7 +38,7 @@ function Update () {
 		transform.rotation.z = 0;
 	} 
 	//The else was removed because if the zombie is chasing, he should also be looking where he's going.
-	if (state == CHASING) {
+	if (state == CHASING || pissed) {
 		//The direction is found by the opposite of the zombie to the player
 		//You could also switch this to this - player's position
 		//THIS IS NOW UNIMPORTANT.  It might become handy later, but we need to add global references NOT LOCAL.
@@ -45,4 +48,8 @@ function Update () {
 		
 		transform.Translate(new Vector3(0, 0, speed * Time.deltaTime));
 	}
+}
+
+function getMad() {
+	pissed = true;
 }
