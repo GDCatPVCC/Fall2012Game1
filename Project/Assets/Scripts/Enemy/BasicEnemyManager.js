@@ -4,6 +4,7 @@ var gameMaster : GameMaster;
 
 private var MAX_HEALTH : int = 200;
 private var damageTaken : int = 0;
+private var healthStolen : int = 0;
 
 function Start () {
 
