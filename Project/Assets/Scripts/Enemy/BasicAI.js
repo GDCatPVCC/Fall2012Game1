@@ -23,7 +23,7 @@ function Update () {
 	else
 		state = CHASING;
 	
-	Debug.Log(state);
+	//Debug.Log(state);
 	
 	if (state == WATCHING || state == CHASING) {
 	
