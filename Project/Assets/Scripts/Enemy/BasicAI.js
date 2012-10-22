@@ -1,6 +1,6 @@
 #pragma strict
 
-var player : Transform;
+private var player : Transform;
 var speed : int = 1;
 
 private var distance : float;
@@ -10,7 +10,7 @@ private var WATCHING : int = 1;
 private var CHASING : int = 2;
 
 function Start () {
-
+	player = GameObject.FindWithTag("Player").transform;
 }
 
 function Update () {
