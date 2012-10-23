@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{80E86E7A-BAA3-315E-51C5-4A56B15C9021}</ProjectGuid>
+	<ProjectGuid>{BE154CEC-49D0-D314-572A-A3E34729959C}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -49,6 +49,9 @@
      <Compile Include="Assets\Scripts\Enemy\EnemySpawn.js" />
      <Compile Include="Assets\Scripts\GameMaster.js" />
      <Compile Include="Assets\Scripts\Health.js" />
+     <Compile Include="Assets\Scripts\HideCursor.js" />
+     <Compile Include="Assets\Scripts\Pause Menu shower.js" />
+     <Compile Include="Assets\Scripts\PauseMenuScript.js" />
      <Compile Include="Assets\Scripts\Player\MeleeWeapon.js" />
      <Compile Include="Assets\Scripts\Player\PlayerManager.js" />
      <Compile Include="Assets\Scripts\TextControl.js" />
@@ -58,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{27EED4A4-A823-2B13-F86C-CC15E841B1A8}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{BAAB4C48-DEA4-3C65-7771-171CB84C26A2}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
