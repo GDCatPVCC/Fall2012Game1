@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/BackgroundMusic.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy/PlayIdle.js">
     <Files>
-      <File FileName="Assets/Scripts/Player/BackgroundMusic.js" Line="8" Column="1" />
+      <File FileName="Assets/Scripts/Enemy/PlayIdle.js" Line="8" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
