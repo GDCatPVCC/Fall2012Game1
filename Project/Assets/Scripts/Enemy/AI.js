@@ -19,42 +19,36 @@ var chasing = false;
 // Whether Enemy is patrolling around waypoints or not
 var patrolling = true;
 // Attack Time
-private var attackTime = Time.time;
+//private var attackTime = Time.time;
 //WayPoint
 var waypoint : Transform[];
 //Speed
 static var speed : float = 5;
 //Current Way Point
-private var currentWaypoint : int;
-//enemy
-var EnemyTransform : Transform; 
+private var currentWaypoint : int; 
 
-//Awaken the Enemy
 function Awake()
-{
-EnemyTransform = transform; 
+{ 
 }
 
 function Start()
 {
-//target the player
- target = GameObject.FindWithTag("Player").transform;
- }
+}
 
 
 function Update () { 
 
 //Check Distance to Target
 
-var dist = (target.position - EnemyTransform.position).magnitude;
+var dist = (target.position - transform.position).magnitude;
 
 if (chasing)
 {
 //Rotate Enemy to Player
-EnemyTransform.rotation = Quaternion.Slerp(EnemyTransform.rotation, Quaternion.LookRotation(target.position - EnemyTransform.position), rotationSpeed*Time.deltaTime);
+transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(target.position - transform.position), rotationSpeed*Time.deltaTime);
 
 //Start Chasing Player
-EnemyTransform.position += EnemyTransform.forward * moveSpeed * Time.deltaTime;
+transform.position += transform.forward * moveSpeed * Time.deltaTime;
 
 //Lost Player
 if (dist > giveUpThreshold)
@@ -64,10 +58,10 @@ patrolling = true;
 }
 
 // attack if close enough and within time
-if (dist < attackThreshold && Time.time > attackTime) { 
+/*if (dist < attackThreshold && Time.time > attackTime) { 
 // Attack
 attackTime = Time.time + attackRepeatTime; 
-	} 
+	} */
 } 
 
 else {
@@ -92,6 +86,8 @@ if (patrolling)
         if(moveDirection.magnitude < 1)
         {
             currentWaypoint++;
+            if (currentWaypoint >= waypoint.Length)
+            	currentWaypoint = 0;
         }
         else
         {
