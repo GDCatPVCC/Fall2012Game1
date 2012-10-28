@@ -3,8 +3,14 @@
 var spawnRange : int = 25;
 var noSpawnRange : int = 5;
 var enemyPrefab : GameObject;
+<<<<<<< HEAD
 
 private var spawnCount : int = 0;
+=======
+var disableRenderCheck : boolean = false;
+
+var spawnCount : int = 0;
+>>>>>>> master
 
 private var player : Transform;
 
@@ -18,7 +24,11 @@ function Update () {
 	if (spawnCount > 0) {
 	
 		//Check if visible
+<<<<<<< HEAD
 		if (renderer.isVisible) {
+=======
+		if (disableRenderCheck) {
+>>>>>>> master
 			//Is visible
 			
 			//Mesure distance to player
