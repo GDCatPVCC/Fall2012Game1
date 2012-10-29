@@ -1,9 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy/AI.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PauseMenuScript.js">
     <Files>
-      <File FileName="Assets/Scripts/Enemy/PlayIdle.js" Line="8" Column="37" />
-      <File FileName="Assets/Scripts/Enemy/AI.js" Line="89" Column="51" />
+      <File FileName="Assets/Scripts/Enemy/PlayIdle.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Enemy/AI.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PauseMenu.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PauseMenuScript.js" Line="7" Column="18" />
+      <File FileName="Assets/Scripts/HideCursor.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

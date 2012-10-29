@@ -1,4 +1,11 @@
 var newSkin : GUISkin;
+var HC : HideCursor;
+
+private var y : int = 50;
+
+function Start() {
+	enabled = false;
+}
 
 function thePauseMenu() {
     //layout start
@@ -16,17 +23,15 @@ function thePauseMenu() {
     //resume the game
     Time.timeScale = 1.0;
     //disable pause menu
-    var script3 = GetComponent("PauseMenuScript"); 
-    script3.enabled = false;
+    this.enabled = false;
     //enable cursor hiding script
-    var script4 = GetComponent("HideCursor"); 
-    script4.enabled = true; 
+    HC.enabled = true; 
     }
     
     //main menu return button (level 0)
-    if(GUI.Button(Rect(55, 150, 180, 40), "Main Menu")) {
+    /*if(GUI.Button(Rect(55, 150, 180, 40), "Main Menu")) {
     Application.LoadLevel(0);
-    }
+    }*/
     
     //quit button
     if(GUI.Button(Rect(55, 200, 180, 40), "Quit")) {
