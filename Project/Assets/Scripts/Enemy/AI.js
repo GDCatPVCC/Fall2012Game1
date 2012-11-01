@@ -44,11 +44,14 @@ var dist = (target.position - transform.position).magnitude;
 
 if (chasing)
 {
-//Rotate Enemy to Player
-transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(target.position - transform.position), rotationSpeed*Time.deltaTime);
+	//Rotate Enemy to Player
+	var tempQ : Quaternion = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(target.position - transform.position), rotationSpeed*Time.deltaTime);
+	tempQ.x = 0;
+	tempQ.z = 0;
+	transform.rotation = tempQ;
 
-//Start Chasing Player
-transform.position += transform.forward * moveSpeed * Time.deltaTime;
+	//Start Chasing Player
+	transform.position += transform.forward * moveSpeed * Time.deltaTime;
 
 //Lost Player
 if (dist > giveUpThreshold)
