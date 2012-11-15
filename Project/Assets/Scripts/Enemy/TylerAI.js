@@ -18,11 +18,10 @@ private var currentTarget:Transform;
 
 private var status:int;
 //status constants USE THESE
-private var PATROLLING:int = 0;
-private var CHASING:int = 1;
-private var RETURNING:int = 2;
-private var STANDING:int = 3;
-private var LOOKING:int = 4;
+private var STANDING:int = 0;
+private var PATROLLING:int = 1;
+private var CHASING:int = 2;
+private var LOOKING:int = 3;
 
 function Start() {
 	currentWaypoint = waypoints[0];
@@ -30,13 +29,25 @@ function Start() {
 }
 
 function Update () {
+	var thisPos:Vector2 = new Vector2(transform.position.x, transform.position.z);
+	var targPos:Vector2 = new Vector2(currentTarget.position.x, currentTarget.position.z);
+	var dist:float = Vector2.Distance(thisPos, targPos);
+
 	if (status == PATROLLING) {
 		currentTarget = currentWaypoint;
-		
+		Look();
+		Walk();
+	} else if (status == CHASING) {
+		currentTarget = player;
+		Look();
+		Run();
+	} else if (status == LOOKING) {
+		currentTarget = player;
+		Look();
 	}
 }
 
-function Look {
+function Look() {
 	var tempQ : Quaternion = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(currentTarget.position - transform.position), rotateSpeed*Time.deltaTime);
 	tempQ.x = 0;
 	tempQ.z = 0;
@@ -44,10 +55,10 @@ function Look {
 	transform.rotation = tempQ;
 }
 
-function Walk {
-	transform.postion += transform.forward * walkSpeed * Time.deltaTime;
+function Walk() {
+	transform.position += transform.forward * walkSpeed * Time.deltaTime;
 }
 
-function Run {
+function Run() {
 	transform.position += transform.forward * runSpeed * Time.deltaTime;
 }
