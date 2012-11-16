@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\Enemy\PlayIdle.js" />
      <Compile Include="Assets\Scripts\Enemy\TylerAI.js" />
      <Compile Include="Assets\Scripts\GameMaster.js" />
+     <Compile Include="Assets\Scripts\HUD.js" />
      <Compile Include="Assets\Scripts\Health.js" />
      <Compile Include="Assets\Scripts\HideCursor.js" />
      <Compile Include="Assets\Scripts\PauseMenu.js" />

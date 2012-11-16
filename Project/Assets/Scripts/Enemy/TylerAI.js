@@ -30,25 +30,25 @@ function Start() {
 }
 
 function Update () {
-	Debug.Log("Running");
 
 	var thisPos:Vector2 = new Vector2(transform.position.x, transform.position.z);
 	var targPos:Vector2 = new Vector2(currentTarget.position.x, currentTarget.position.z);
-	var dist:float = Vector2.Distance(thisPos, targPos);
+	var distToTarget:float = Vector2.Distance(thisPos, targPos);
 	
-	if (dist < 1) {
-		if (status == PATROLLING) {
-			//will run when the zombie hits a WAYPOINT
-			if (currentWaypoint == waypoints.Length)
+	if (status == PATROLLING) {
+		var playerPos:Vector2 = new Vector2(player.position.x, player.position.z);
+		var distToPlayer:float = Vector2.Distance(thisPos, playerPos);
+		
+		if (distToTarget < 1) {
+			if (currentWaypoint == waypoints.Length-1)
 				nextWaypoint = -1;
 			else if (currentWaypoint == 0)
 				nextWaypoint = 1;
 			currentWaypoint += nextWaypoint;
-		} else if (status == CHASING) {
-			//will run if zombie has caught the PLAYER
 		}
 	}
 
+	//MOVEMENT
 	if (status == PATROLLING) {
 		currentTarget = waypoints[currentWaypoint];
 		Look();
