@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\HideCursor.js" />
      <Compile Include="Assets\Scripts\PauseMenu.js" />
      <Compile Include="Assets\Scripts\PauseMenuScript.js" />
+     <Compile Include="Assets\Scripts\Player\Caster.js" />
      <Compile Include="Assets\Scripts\Player\MeleeWeapon.js" />
      <Compile Include="Assets\Scripts\Player\PlayerManager.js" />
      <Compile Include="Assets\Scripts\TextControl.js" />
