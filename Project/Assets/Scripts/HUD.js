@@ -11,7 +11,15 @@ var ammo : float = 80;
 */
 var crosstex : Texture2D;
 var crossmex : Texture2D;
+var xbowtex : Texture2D;
+var dagtex : Texture2D;
+var damtex : Texture2D;
+var healthtex: Texture2D;
+var key1 : Texture2D;
+var key2 : Texture2D;
+var key3 : Texture2D;
 var size : float = 32;
+var healthammount : String = "50/100";
 healthbox.x = Screen.width/2-healthbox.width/2;
 damagebox.x = Screen.width/2-healthbox.width/2;
 keybox1.x = Screen.width/2-keybox2.width/2;
@@ -20,28 +28,52 @@ keybox2.x = Screen.width/2-keybox1.width-keybox1.width/2;
 keybox2.y = Screen.height-keybox1.height;
 keybox3.x = Screen.width/2+keybox3.width-keybox3.width/2;
 keybox3.y = Screen.height-keybox3.height;
+
 function Update()
 {
 }
 
-
 function OnGUI()
-{
-	GUI.color = Color.green;
-	GUI.Box(healthbox,"Base for healthbox");
-	GUI.Box(damagebox,"Base for damagebox");
-	GUI.Box(wepbox,"Weapon display box");
-	GUI.Box(clipbox,"clip");
-	GUI.Box(ammobox,"ammo");
-	GUI.Box(keybox1,"2");
-	GUI.Box(keybox2,"1");
-	GUI.Box(keybox3,"3");
-	if(Input.GetKey("q"))
+{	
+	healthammount = GUI.TextArea(Rect(Screen.width/2-25,0,50,25),healthammount);
+	GUI.DrawTexture(damagebox,damtex);
+	GUI.DrawTexture(healthbox,healthtex);
+	if(Input.GetKey("r"))
 	{
+		GUI.DrawTexture(wepbox,xbowtex);
+		GUI.Box(clipbox,"clip");
+		GUI.Box(ammobox,"ammo");
 		GUI.DrawTexture(Rect(Screen.width/2-size/2,Screen.height/2-size/2,size,size), crosstex);
 	}
 	else
 	{
+		GUI.DrawTexture(wepbox,dagtex);
+		GUI.Box(clipbox,"");
+		GUI.Box(ammobox,"");
 		GUI.DrawTexture(Rect(Screen.width/2-size/2,Screen.height/2-size/2,size,size), crossmex);
+	}
+	if(Input.GetKey("b"))
+	{
+		GUI.DrawTexture(keybox1,key1);
+	}
+	else
+	{
+		GUI.Box(keybox1,"");
+	}
+	if(Input.GetKey("v"))
+	{
+		GUI.DrawTexture(keybox2,key2);
+	}
+	else
+	{
+		GUI.Box(keybox2,"");
+	}
+	if(Input.GetKey("n"))
+	{
+		GUI.DrawTexture(keybox3,key3);
+	}
+	else
+	{
+		GUI.Box(keybox3,"");
 	}
 }
