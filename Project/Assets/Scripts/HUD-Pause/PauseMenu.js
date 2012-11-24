@@ -1,6 +1,9 @@
 var PMS : PauseMenuScript;
 var HC : HideCursor;
 
+HC = GetComponent("HideCursor");
+PMS = GetComponent("PauseMenuScript");
+
 function Update () 
 {
 	if(Input.GetKey("p")) 

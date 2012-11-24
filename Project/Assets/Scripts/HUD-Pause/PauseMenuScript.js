@@ -3,6 +3,8 @@ var HC : HideCursor;
 
 private var y : int = 50;
 
+HC = GetComponent("HideCursor");
+
 function Start() {
 	enabled = false;
 }
