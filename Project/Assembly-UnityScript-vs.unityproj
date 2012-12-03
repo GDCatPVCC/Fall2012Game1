@@ -63,6 +63,8 @@
      <Compile Include="Assets\Scripts\HUD-Pause\PauseMenuScript.js" />
      <Compile Include="Assets\Scripts\HUD-Pause\Playerweapons.js" />
      <Compile Include="Assets\Scripts\HUD-Pause\TextControl.js" />
+     <Compile Include="Assets\Scripts\HUD-Pause\missileLauncher.js" />
+     <Compile Include="Assets\Scripts\HUD-Pause\projectile.js" />
      <Compile Include="Assets\Scripts\HUD-Pause\weapon1.js" />
      <Compile Include="Assets\Scripts\HUD-Pause\weapon2.js" />
      <Compile Include="Assets\Scripts\Player\Caster.js" />
