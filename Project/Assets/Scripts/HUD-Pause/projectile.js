@@ -3,5 +3,7 @@
 function OnCollisionEnter( collision : Collision )
 {
 	var contact : ContactPoint = collision.contacts[0];
-	Destroy( gameObject,4);
+	this.rigidbody.velocity = new Vector3(0,0,0);
+	this.rigidbody.angularVelocity = new Vector3(0,0,0);
+	Destroy( gameObject,20);
 }

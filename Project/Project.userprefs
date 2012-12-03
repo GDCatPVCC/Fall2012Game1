@@ -1,6 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\HUD-Pause\projectile.js">
+    <Files>
+      <File FileName="Assets\Scripts\HUD-Pause\projectile.js" Line="7" Column="54" />
+      <File FileName="Assets\Scripts\HUD-Pause\missileLauncher.js" Line="14" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
