@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\Enemy\PlayIdle.js" />
      <Compile Include="Assets\Scripts\Enemy\PredMedSpawn.js" />
      <Compile Include="Assets\Scripts\Enemy\TankSpawn.js" />
+     <Compile Include="Assets\Scripts\Enemy\TankTrigger.js" />
      <Compile Include="Assets\Scripts\Enemy\TylerAI.js" />
      <Compile Include="Assets\Scripts\Enemy\Waypoint.js" />
      <Compile Include="Assets\Scripts\GameMaster.js" />
@@ -70,6 +71,7 @@
      <Compile Include="Assets\Scripts\Player\Caster.js" />
      <Compile Include="Assets\Scripts\Player\MeleeWeapon.js" />
      <Compile Include="Assets\Scripts\Player\PlayerManager.js" />
+     <Compile Include="Assets\Test\TriggerTest.js" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
