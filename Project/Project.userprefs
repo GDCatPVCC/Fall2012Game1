@@ -1,10 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ActiveRuntime="Mono 2.10.2" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy/TankTrigger.js">
     <Files>
-      <File FileName="Assets/Test/TriggerTest.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Enemy/TankTrigger.js" Line="14" Column="18" />
-      <File FileName="Assets/Scripts/HUD-Pause/projectile.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Enemy/TankTrigger.js" Line="6" Column="33" />
+      <File FileName="Assets/Scripts/Weapons/projectile.js" Line="9" Column="25" />
+      <File FileName="Assets/Scripts/Weapons/missileLauncher.js" Line="21" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

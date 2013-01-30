@@ -62,15 +62,15 @@
      <Compile Include="Assets\Scripts\HUD-Pause\HideCursor.js" />
      <Compile Include="Assets\Scripts\HUD-Pause\PauseMenu.js" />
      <Compile Include="Assets\Scripts\HUD-Pause\PauseMenuScript.js" />
-     <Compile Include="Assets\Scripts\HUD-Pause\Playerweapons.js" />
      <Compile Include="Assets\Scripts\HUD-Pause\TextControl.js" />
-     <Compile Include="Assets\Scripts\HUD-Pause\missileLauncher.js" />
-     <Compile Include="Assets\Scripts\HUD-Pause\projectile.js" />
-     <Compile Include="Assets\Scripts\HUD-Pause\weapon1.js" />
-     <Compile Include="Assets\Scripts\HUD-Pause\weapon2.js" />
      <Compile Include="Assets\Scripts\Player\Caster.js" />
      <Compile Include="Assets\Scripts\Player\MeleeWeapon.js" />
      <Compile Include="Assets\Scripts\Player\PlayerManager.js" />
+     <Compile Include="Assets\Scripts\Weapons\Playerweapons.js" />
+     <Compile Include="Assets\Scripts\Weapons\missileLauncher.js" />
+     <Compile Include="Assets\Scripts\Weapons\projectile.js" />
+     <Compile Include="Assets\Scripts\Weapons\weapon1.js" />
+     <Compile Include="Assets\Scripts\Weapons\weapon2.js" />
      <Compile Include="Assets\Test\TriggerTest.js" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
