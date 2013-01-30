@@ -14,5 +14,8 @@ function Update ()
 	    PMS.enabled = true;
 	    //disable the cursor hiding script
 	    HC.enabled = false; 
+	    //lock the view
+	    GameObject.Find("First Person Controller").GetComponent("MouseLook").enabled = false;            
+      	GameObject.Find("Main Camera").GetComponent("MouseLook").enabled = false;      
 	}
 }

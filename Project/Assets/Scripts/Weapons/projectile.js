@@ -6,5 +6,6 @@ function OnCollisionEnter( collision : Collision )
 	this.rigidbody.velocity = new Vector3(0,0,0);
 	this.rigidbody.angularVelocity = new Vector3(0,0,0);
 	this.rigidbody.useGravity = false;
+	this.collider.active = false;
 	Destroy(gameObject,20);
 }

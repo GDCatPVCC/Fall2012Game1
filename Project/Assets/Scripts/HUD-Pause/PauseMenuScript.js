@@ -28,10 +28,23 @@ function thePauseMenu() {
     this.enabled = false;
     //enable cursor hiding script
     HC.enabled = true; 
+    //unlock the view
+    GameObject.Find("First Person Controller").GetComponent("MouseLook").enabled = true; 
+    GameObject.Find("Main Camera").GetComponent("MouseLook").enabled = true;      
     }
     
     //main menu return button (level 0)
     /*if(GUI.Button(Rect(55, 150, 180, 40), "Main Menu")) {
+    ////this stuff makes it so the game is not paused when you go from the game to the main menu and back.
+    //resume the game
+    Time.timeScale = 1.0;
+    //disable pause menu
+    this.enabled = false;
+    //enable cursor hiding script
+    HC.enabled = true; 
+    //unlock the view
+    GameObject.Find("First Person Controller").GetComponent("MouseLook").enabled = true; 
+    GameObject.Find("Main Camera").GetComponent("MouseLook").enabled = true;      
     Application.LoadLevel(0);
     }*/
     
