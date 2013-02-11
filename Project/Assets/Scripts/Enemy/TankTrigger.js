@@ -28,7 +28,7 @@ function Update () {
 }
 
 function OnTriggerEnter(other : Collider) {
-	Debug.Log("HERE COMES THE TANK, MOTHA FUCKA!");
+	Debug.Log(tankSong.clip.frequency);
 	//TODO Everything related to the tank spawning
 	//Music. etc etc
 	//To stop the song, link it to the tank and fade on kill.

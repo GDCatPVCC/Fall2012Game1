@@ -4,16 +4,22 @@
 var player : GameObject;
 //var enemies : Array;
 
-var score : int = 0;
+private var score : int = 0;
+var musicCount : float = 0.0f;
 
 function Start () {
-
+	Debug.Log("I'm alive!");
 }
 
 function Update () {
 	//this checks if the GameMaster runs...
 	//and it DOES
-	//Debug.Log("I'm alive!");
+	if (musicCount + Time.deltaTime < 2)
+		musicCount += Time.deltaTime;
+	else
+		musicCount += Time.deltaTime - 2;
+	Debug.Log(musicCount);
+	
 }
 
 //wraiths call this function from the GM when they die

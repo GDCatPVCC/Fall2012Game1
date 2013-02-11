@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\HUD-Pause\PauseMenuScript.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy/New Tank Trigger.js">
     <Files>
-      <File FileName="Assets\Scripts\HUD-Pause\PauseMenuScript.js" Line="38" Column="107" />
+      <File FileName="Assets/Scripts/Enemy/TankTrigger.js" Line="37" Column="2" />
+      <File FileName="Assets/Scripts/Enemy/New Tank Trigger.js" Line="4" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
