@@ -52,7 +52,7 @@
      <Compile Include="Assets\Scripts\Enemy\Health.js" />
      <Compile Include="Assets\Scripts\Enemy\New Tank Trigger.js" />
      <Compile Include="Assets\Scripts\Enemy\PatrolCaster.js" />
-     <Compile Include="Assets\Scripts\Enemy\PlayIdle.js" />
+     <Compile Include="Assets\Scripts\Enemy\PlayTake001.js" />
      <Compile Include="Assets\Scripts\Enemy\PredMedSpawn.js" />
      <Compile Include="Assets\Scripts\Enemy\TankSpawn.js" />
      <Compile Include="Assets\Scripts\Enemy\TankTrigger.js" />
