@@ -6,6 +6,7 @@ var enemyPrefab : GameObject;
 var disableRenderCheck : boolean = false;
 
 var spawnCount : int = 0;
+var waypoints:Transform[];
 
 private var player : Transform;
 
@@ -36,6 +37,7 @@ function Update () {
 					//Reduce counter
 					spawnCount--;
 					//Spawn Enemy
+					enemyPrefab.GetComponent("TylerAI").waypoints = waypoints;
 					Instantiate(enemyPrefab, transform.position, transform.rotation);
 				}
 			}
