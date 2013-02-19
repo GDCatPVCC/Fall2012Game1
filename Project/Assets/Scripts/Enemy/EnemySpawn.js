@@ -1,5 +1,5 @@
 #pragma strict
-
+/*
 var spawnRange : int = 25;
 var noSpawnRange : int = 5;
 var enemyPrefab : GameObject;
@@ -70,4 +70,4 @@ function OnDrawGizmosSelected() {
 
 function spawn(count : int) {
 	spawnCount = count;
-}
+}*/

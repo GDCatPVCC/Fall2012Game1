@@ -28,7 +28,11 @@ function OnCollisionEnter(collision : Collision) {
 	//I could be wrong. Needs testing
 }
 
-function Update () {
+function Update () 
+{
 	if (Input.GetButtonDown("Fire1"))
-		animation.Play("Swing");
+	{
+		GameObject.Find("simplemelee");
+		animation.Play("Take 001");
+	}
 }
