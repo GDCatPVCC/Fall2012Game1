@@ -1,4 +1,7 @@
 #pragma strict
+
+var effect:GameObject;
+
 //destroys the bolt on contact with a wall or something
 function OnCollisionEnter( collision : Collision )
 {
@@ -7,6 +10,8 @@ function OnCollisionEnter( collision : Collision )
 	this.rigidbody.angularVelocity = new Vector3(0,0,0);
 	this.rigidbody.useGravity = false;
 	this.collider.active = false;
+	var rot:Quaternion = Quaternion.FromToRotation(Vector3.up, contact.normal);
+	Instantiate(effect, contact.point, rot);
 	Destroy(gameObject,20);
 	try 
 	{
