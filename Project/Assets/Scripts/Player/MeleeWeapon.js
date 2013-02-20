@@ -18,7 +18,7 @@ function OnCollisionEnter(collision : Collision) {
 			Debug.Log("Good aim!");
 		} catch (e : System.NullReferenceException) {
 			//will run if...
-			Debug.Log("You hit something that is doesn't have a BasicEnemyManager script attached");
+			Debug.Log("You hit something that doesn't have a BasicEnemyManager script attached");
 		}
 		
 		
