@@ -1,17 +1,17 @@
 #pragma strict
-/*
+
 var spawnRange : int = 25;
 var noSpawnRange : int = 5;
 var enemyPrefab : GameObject;
 var disableRenderCheck : boolean = false;
 
 var spawnCount : int = 0;
-var waypoints:Transform[];
+var weighPoints:Transform[] = null;
 
-private var player : Transform;
+var player : Transform;
 
 function Start () {
-	player = GameObject.FindWithTag("Player").transform;
+	//player = GameObject.FindWithTag("Player").transform;
 }
 
 function Update () {
@@ -37,7 +37,9 @@ function Update () {
 					//Reduce counter
 					spawnCount--;
 					//Spawn Enemy
-					enemyPrefab.GetComponent("TylerAI").waypoints = waypoints;
+					var tyty:TylerAI = enemyPrefab.GetComponent("TylerAI");
+					tyty.waypoints = weighPoints;
+					Debug.Log("You're close");
 					Instantiate(enemyPrefab, transform.position, transform.rotation);
 				}
 			}
@@ -70,4 +72,4 @@ function OnDrawGizmosSelected() {
 
 function spawn(count : int) {
 	spawnCount = count;
-}*/
+}
