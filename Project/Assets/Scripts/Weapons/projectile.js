@@ -11,7 +11,11 @@ function OnCollisionEnter( collision : Collision )
 	this.rigidbody.useGravity = false;
 	this.collider.active = false;
 	var rot:Quaternion = Quaternion.FromToRotation(Vector3.up, contact.normal);
-	Instantiate(effect, contact.point, rot);
+	if (collision.gameObject.CompareTag("Enemy"))
+	{
+		var newEffect = Instantiate(effect, contact.point, rot);
+		Destroy(newEffect, 3);
+	}
 	Destroy(gameObject,20);
 	try 
 	{
