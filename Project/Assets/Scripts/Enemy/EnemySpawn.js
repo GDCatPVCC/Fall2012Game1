@@ -3,6 +3,7 @@
 var spawnRange : int = 25;
 var noSpawnRange : int = 5;
 var enemyPrefab : GameObject;
+
 var disableRenderCheck : boolean = false;
 
 var spawnCount : int = 0;
@@ -11,6 +12,7 @@ var weighPoints:Transform[] = null;
 var player : Transform;
 
 function Start () {
+	//	enemyPrefab = Resources.Load("Assets/Test/Resources/TylerAITestPrefab.prefab");
 	//player = GameObject.FindWithTag("Player").transform;
 }
 
@@ -19,28 +21,36 @@ function Update () {
 	//if spawnable
 	if (spawnCount > 0) {
 	
-		//Check if visible
-		if (disableRenderCheck) {
-			//Is visible
+		//Mesure distance to player
+		Debug.Log(transform.position);
+		Debug.Log(player.position);
+		var distanceToPlayer = Vector3.Distance(transform.position, player.position);
+		
+		//Is in range
+		if (distanceToPlayer < spawnRange) {
+			//if in range
 			
-			//Mesure distance to player
-			var distanceToPlayer = Vector3.Distance(transform.position, player.position);
-			
-			//Is in range
-			if (distanceToPlayer < spawnRange) {
-				//if in range
+			//Check if outside of noSpawnRange
+			if(distanceToPlayer > noSpawnRange) {
+				//outside of no spawn range
 				
-				//Check if outside of noSpawnRange
-				if(distanceToPlayer > noSpawnRange) {
-					//outside of no spawn range
-					
-					//Reduce counter
-					spawnCount--;
-					//Spawn Enemy
-					var tyty:TylerAI = enemyPrefab.GetComponent("TylerAI");
-					tyty.waypoints = weighPoints;
-					Debug.Log("You're close");
-					Instantiate(enemyPrefab, transform.position, transform.rotation);
+				Debug.Log("outside of no spawn zone");
+				
+				var hit:RaycastHit;
+				//if (Physics.Raycast(transform.position, player.position - transform.position, hit)) {
+				Physics.Raycast(transform.position, player.position - transform.position, hit);
+				//Debug.Log(hit.collider.tag);
+					if (!(hit.collider.tag == "Player")) {
+						Debug.Log("SPAWNING MUTHA FUCKA");
+						//Reduce counter
+						spawnCount--;
+						//Spawn Enemy
+						var tyty:TylerAI = enemyPrefab.GetComponent("TylerAI");
+						tyty.waypoints = weighPoints;
+						tyty.player = player;
+						Debug.Log("You're close");
+						Instantiate(enemyPrefab, transform.position, transform.rotation);
+					//}
 				}
 			}
 		}
