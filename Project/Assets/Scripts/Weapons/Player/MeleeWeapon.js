@@ -9,7 +9,7 @@ var attackPower : int = 50;
 
 //this detects when the object hits ANY OTHER object
 function OnCollisionEnter(collision : Collision) {
-	if (animation.IsPlaying("Swing")) {
+	if (animation.IsPlaying("Take 001")) {
 		//displays the name of the object hit
 		Debug.Log("Hit something named "+collision.gameObject.name);
 		try {
