@@ -20,7 +20,6 @@ private var nextWaypoint:int = 1;
 private var currentTarget:Vector3;
 private var nextDirection:Vector3;
 
-private var status:int = 1;
 //status constants; USE THESE
 private var STANDING:int = 0;
 private var PATROLLING:int = 1;
@@ -29,19 +28,19 @@ private var LOOKING:int = 3;
 private var CHASING:int = 2;
 private var SEARCHING:int = 4;
 
+private var status:int = 1;
+
 function Start () {
 	currentTarget = waypoints[currentWaypoint].position;
 }
 
 function Update () {
-	Debug.Log(this.rigidbody.velocity);
-
 	var thisPos:Vector2 = new Vector2(transform.position.x, transform.position.z);
 	var targPos:Vector2 = new Vector2(currentTarget.x, currentTarget.z);
 	var distToTarget:float = Vector2.Distance(thisPos, targPos);
 	
 	Physics.Raycast(transform.position, player.position-transform.position, hit);
-	var canSeePlayer : boolean = hit.collider.GetComponent("PlayerManager") != null;
+	var canSeePlayer : boolean = hit.collider.tag == "Player";	
 	
 	//decision making
 	if (status == PATROLLING) {
