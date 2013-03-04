@@ -6,6 +6,7 @@ ModelImporter:
     4300002: polySurface3
     4300004: polySurface4
     4300006: polySurface5
+    4300008: polySurface6
     7400000: Take 001 //// Sword_advancedAnim
   serializedVersion: 10
   materials:
@@ -114,12 +115,6 @@ ModelImporter:
       data:
         first: 4
         second: a21a0600
-      data:
-        first: 23
-        second: 66182300
-      data:
-        first: 33
-        second: a65a3200
     polySurface3:
       data:
         first: 1
@@ -127,12 +122,6 @@ ModelImporter:
       data:
         first: 4
         second: 941a0600
-      data:
-        first: 23
-        second: 62182300
-      data:
-        first: 33
-        second: a25a3200
     polySurface4:
       data:
         first: 1
@@ -140,12 +129,6 @@ ModelImporter:
       data:
         first: 4
         second: 961a0600
-      data:
-        first: 23
-        second: 64182300
-      data:
-        first: 33
-        second: a45a3200
     polySurface5:
       data:
         first: 1
@@ -153,6 +136,13 @@ ModelImporter:
       data:
         first: 4
         second: 841a0600
+    polySurface6:
+      data:
+        first: 1
+        second: ca860100
+      data:
+        first: 4
+        second: aa1a0600
       data:
         first: 23
         second: 60182300
@@ -194,3 +184,31 @@ ModelImporter:
       data:
         first: 4
         second: 861a0600
+    transform6:
+      data:
+        first: 1
+        second: cc860100
+      data:
+        first: 4
+        second: ac1a0600
+    transform7:
+      data:
+        first: 1
+        second: c4860100
+      data:
+        first: 4
+        second: a41a0600
+    transform8:
+      data:
+        first: 1
+        second: c6860100
+      data:
+        first: 4
+        second: a61a0600
+    transform9:
+      data:
+        first: 1
+        second: c8860100
+      data:
+        first: 4
+        second: a81a0600
