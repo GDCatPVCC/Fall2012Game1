@@ -3,6 +3,12 @@
 var player:Transform;
 var waypoints:Transform[];
 
+//DESTROY STUFF
+private var t:float = 0;
+private var MAX_TIME:float = 5;
+private var canDie:boolean = false;
+var deathFX:GameObject;
+
 //speed declarations
 private var walkSpeed:int = 3;
 private var runSpeed:int = 4;
@@ -69,17 +75,25 @@ function Update () {
 	} else if (status == CHASING) {
 		if (!canSeePlayer) {
 			currentTarget = hit.point;
-			var search1:Vector2 = new Vector2(-hit.normal.z, hit.normal.x);
-			var search2:Vector2 = -search1;
-			var playerPath:Vector2 = new Vector2(currentTarget.x - player.transform.position.x, currentTarget.z - player.transform.position.z);
+			
+			
+			//var search1:Vector2 = new Vector2(-hit.normal.z, hit.normal.x);
+			//var search2:Vector2 = -search1;
+			//var playerPath:Vector2 = new Vector2(currentTarget.x - player.transform.position.x, currentTarget.z - player.transform.position.z);
 			//Mathf.Acos();
+			
+			t = 0;
+			canDie = true;
+			
 			status = SEARCHING;
 		}if (distToTarget > giveUpThreshhold)
 			status = PATROLLING;
 		//TODO: Set death timer for explosion
 	} else if (status == SEARCHING) {
-		if (distToTarget < 1)
+		if (distToTarget < 1) {
 			status = PATROLLING;
+			canDie = false;
+		}
 	}
 
 	//MOVEMENT
@@ -99,6 +113,13 @@ function Update () {
 		Look();
 		Run();
 	}
+	
+	//DEATH
+	if (canDie) {
+		t += Time.deltaTime;
+		if (t >= MAX_TIME)
+			getOut();
+	}
 }
 
 function Look() {
@@ -115,4 +136,9 @@ function Walk() {
 
 function Run() {
 	transform.position += transform.forward * runSpeed * Time.deltaTime;
+}
+
+function getOut() {
+	Instantiate(deathFX, this.transform.position, this.transform.rotation);
+	Destroy(this);
 }

@@ -4,12 +4,13 @@ var spawnRange : int = 25;
 var noSpawnRange : int = 5;
 var enemyPrefab : GameObject;
 
-var disableRenderCheck : boolean = false;
+//var disableRenderCheck : boolean = false;
 
 var spawnCount : int = 0;
 var weighPoints:Transform[] = null;
 
 var player : Transform;
+var deathFX : GameObject;
 
 function Start () {
 	//	enemyPrefab = Resources.Load("Assets/Test/Resources/TylerAITestPrefab.prefab");
@@ -22,8 +23,8 @@ function Update () {
 	if (spawnCount > 0) {
 	
 		//Mesure distance to player
-		Debug.Log(transform.position);
-		Debug.Log(player.position);
+		//Debug.Log(transform.position);
+		//Debug.Log(player.position);
 		var distanceToPlayer = Vector3.Distance(transform.position, player.position);
 		
 		//Is in range
@@ -41,15 +42,17 @@ function Update () {
 				Physics.Raycast(transform.position, player.position - transform.position, hit);
 				//Debug.Log(hit.collider.tag);
 					if (!(hit.collider.tag == "Player")) {
-						Debug.Log("SPAWNING MUTHA FUCKA");
+						//Debug.Log("SPAWNING");
 						//Reduce counter
 						spawnCount--;
 						//Spawn Enemy
 						var tyty:TylerAI = enemyPrefab.GetComponent("TylerAI");
 						tyty.waypoints = weighPoints;
 						tyty.player = player;
+						tyty.deathFX = this.deathFX;
 						Debug.Log("You're close");
-						Instantiate(enemyPrefab, transform.position, transform.rotation);
+						var temp:GameObject = Instantiate(enemyPrefab, transform.position, transform.rotation);
+						temp.tag = "Enemy";
 					//}
 				}
 			}

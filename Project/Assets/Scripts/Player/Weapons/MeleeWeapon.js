@@ -32,7 +32,8 @@ function Update ()
 {
 	if (Input.GetButtonDown("Fire1"))
 	{
-		GameObject.Find("simplemelee");
+		Debug.Log("Swingin'");
+		//GameObject.Find("simplemelee");
 		animation.Play("Take 001");
 	}
 }
