@@ -1,9 +1,5 @@
 #pragma strict
 
-//var gameMaster : GameMaster;
-//gameMaster should probably handle the Die function because it differs for every instance.
-//Check instance with "typeof" function OR "gameObject.name" variable.
-
 var MAX_HEALTH : int = 200;
 private var damageTaken : int = 0;
 
@@ -21,7 +17,5 @@ function heal(recovery : int) {
 
 function checkDeath() {
 	if (damageTaken >= MAX_HEALTH)
-		//alert the gameMaster
 		Destroy(this.gameObject);
-		Debug.Log(""+this.gameObject.name+" has died.");
 }

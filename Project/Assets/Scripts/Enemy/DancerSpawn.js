@@ -25,9 +25,9 @@ function Update () {
 			//Mesure distance to player
 			var distanceToPlayer = Vector3.Distance(transform.position, player.position);
 			
-			//Is in range
+			//If in range
 			if (distanceToPlayer < spawnRange) {
-				//if in range
+				//is in range
 				
 				//Check if outside of noSpawnRange
 				if(distanceToPlayer > noSpawnRange) {

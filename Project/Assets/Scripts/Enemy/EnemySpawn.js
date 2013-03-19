@@ -13,8 +13,7 @@ var player : Transform;
 var deathFX : GameObject;
 
 function Start () {
-	//	enemyPrefab = Resources.Load("Assets/Test/Resources/TylerAITestPrefab.prefab");
-	//player = GameObject.FindWithTag("Player").transform;
+	
 }
 
 function Update () {
@@ -38,11 +37,9 @@ function Update () {
 				Debug.Log("outside of no spawn zone");
 				
 				var hit:RaycastHit;
-				//if (Physics.Raycast(transform.position, player.position - transform.position, hit)) {
 				Physics.Raycast(transform.position, player.position - transform.position, hit);
 				//Debug.Log(hit.collider.tag);
 					if (!(hit.collider.tag == "Player")) {
-						//Debug.Log("SPAWNING");
 						//Reduce counter
 						spawnCount--;
 						//Spawn Enemy
@@ -53,7 +50,6 @@ function Update () {
 						Debug.Log("You're close");
 						var temp:GameObject = Instantiate(enemyPrefab, transform.position, transform.rotation);
 						temp.tag = "Enemy";
-					//}
 				}
 			}
 		}

@@ -2,7 +2,6 @@
 
 //set player in Unity GUI
 var player : GameObject;
-//var enemies : Array;
 
 private var score : int = 0;
 var musicCount : float = 0.0f;
@@ -18,7 +17,7 @@ function Update () {
 		musicCount += Time.deltaTime;
 	else
 		musicCount += Time.deltaTime - 2;
-	Debug.Log(musicCount);
+	//Debug.Log(musicCount);
 	
 }
 
@@ -28,8 +27,6 @@ function killedAWraithWithHealth(health : int) {
 	player.GetComponent(Health).heal(health);	
 }
 
-//Ryan said this would be handled in the manager
-//I figure it's a matter of running an animation.
 function openDoor(door : GameObject) {
 	door.animation.Play("open");
 }
@@ -52,5 +49,5 @@ function subFromScore(num : int) {
 }
 
 function checkRun() {
-	Debug.Log("Yup, I'm here.");
+	//Debug.Log("Yup, I'm here.");
 }

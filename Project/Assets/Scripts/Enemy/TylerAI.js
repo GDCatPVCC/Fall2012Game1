@@ -76,19 +76,12 @@ function Update () {
 		if (!canSeePlayer) {
 			currentTarget = hit.point;
 			
-			
-			//var search1:Vector2 = new Vector2(-hit.normal.z, hit.normal.x);
-			//var search2:Vector2 = -search1;
-			//var playerPath:Vector2 = new Vector2(currentTarget.x - player.transform.position.x, currentTarget.z - player.transform.position.z);
-			//Mathf.Acos();
-			
 			t = 0;
 			canDie = true;
 			
 			status = SEARCHING;
 		}if (distToTarget > giveUpThreshhold)
 			status = PATROLLING;
-		//TODO: Set death timer for explosion
 	} else if (status == SEARCHING) {
 		if (distToTarget < 1) {
 			status = PATROLLING;
@@ -109,7 +102,6 @@ function Update () {
 		currentTarget = player.position;
 		Look();
 	} else if (status == SEARCHING) {
-		//current Target should already be set, so it should just walk/run towards the target
 		Look();
 		Run();
 	}
