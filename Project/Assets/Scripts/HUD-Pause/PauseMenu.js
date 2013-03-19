@@ -1,12 +1,15 @@
 var PMS : PauseMenuScript;
 var HC : HideCursor;
+var player:GameObject;
+var mainCamera:GameObject;
+var weapon : missileLauncher;
 
 HC = GetComponent("HideCursor");
 PMS = GetComponent("PauseMenuScript");
 
 function Update () 
 {
-	if(Input.GetKey("p")) 
+	if(Input.GetKeyDown("p")) 
 	{
 	    //pause the game
 	    Time.timeScale = 0;
@@ -15,7 +18,8 @@ function Update ()
 	    //disable the cursor hiding script
 	    HC.enabled = false; 
 	    //lock the view
-	    GameObject.Find("First Person Controller").GetComponent("MouseLook").enabled = false;            
-      	GameObject.Find("Main Camera").GetComponent("MouseLook").enabled = false;      
+	    player.GetComponent("MouseLook").enabled = false; 
+      	mainCamera.GetComponent("MouseLook").enabled = false;  
+      	weapon.canFire = false;
 	}
 }

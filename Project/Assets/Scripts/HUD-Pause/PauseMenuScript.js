@@ -1,5 +1,9 @@
 var newSkin : GUISkin;
 var HC : HideCursor;
+var player:GameObject;
+var mainCamera:GameObject;
+var weapon : missileLauncher;
+
 
 private var y : int = 50;
 
@@ -29,8 +33,10 @@ function thePauseMenu() {
     //enable cursor hiding script
     HC.enabled = true; 
     //unlock the view
-    GameObject.Find("First Person Controller").GetComponent("MouseLook").enabled = true; 
-    GameObject.Find("Main Camera").GetComponent("MouseLook").enabled = true;      
+    player.GetComponent("MouseLook").enabled = true;      
+    mainCamera.GetComponent("MouseLook").enabled = true;   
+    //don't fire when unpausing
+    weapon.canFire = true;
     }
     
     //main menu return button (level 0)
@@ -43,8 +49,10 @@ function thePauseMenu() {
     //enable cursor hiding script
     HC.enabled = true; 
     //unlock the view
-    GameObject.Find("First Person Controller").GetComponent("MouseLook").enabled = true; 
-    GameObject.Find("Main Camera").GetComponent("MouseLook").enabled = true;      
+    //GameObject.Find("First Person Controller").GetComponent("MouseLook").enabled = true; 
+    //GameObject.Find("Main Camera").GetComponent("MouseLook").enabled = true;     
+    player.GetComponent("MouseLook").enabled = true;   
+    mainCamera.GetComponent("MouseLook").enabled = true;      
     Application.LoadLevel(0);
     }*/
     

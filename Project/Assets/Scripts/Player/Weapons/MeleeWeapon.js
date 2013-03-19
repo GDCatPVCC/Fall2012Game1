@@ -14,7 +14,7 @@ function OnCollisionEnter(collision : Collision) {
 			collision.gameObject.GetComponent(BasicEnemyManager).TakeDamage(attackPower);
 			//Debug.Log("Good aim!");
 		} catch (e : System.NullReferenceException) {
-			//will run if...
+			//will run if...s
 			//Debug.Log("You hit something that doesn't have a BasicEnemyManager script attached");
 		}
 		
@@ -27,6 +27,7 @@ function Update ()
 	if (Input.GetButtonDown("Fire1"))
 	{
 		Debug.Log("Swingin'");
+		animation["Take 001"].speed = 2.5;
 		animation.Play("Take 001");
 	}
 }
