@@ -4,6 +4,7 @@ var projectile : Rigidbody;
 var speed = 20;
 var myTimer : float = 0;
 var FX:GameObject;
+var canFire : boolean = true;
 
 function Update()
 {
@@ -15,7 +16,7 @@ function Update()
  	//cooldown done.  Can fire.
 	if( myTimer <=0)
 	{
-	 	if( Input.GetButtonDown( "Fire1" ) )
+	 	if( Input.GetButtonDown( "Fire1" ) && canFire)
   		{
   			//animate the bow
   			animation.Play("Take 001");
