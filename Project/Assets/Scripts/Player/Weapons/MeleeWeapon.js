@@ -7,7 +7,7 @@ var power : float = 5;
 
 //this detects when the object hits ANY OTHER object
 function OnCollisionEnter(collision : Collision) {
-	if (animation.IsPlaying("Take 001")) {
+	if (animation.IsPlaying("Swing")) {
 		//displays the name of the object hit
 		//Debug.Log("Hit something named "+collision.gameObject.name);
 		try {
@@ -32,7 +32,7 @@ function Update ()
 	if (Input.GetButtonDown("Fire1"))
 	{
 		//Debug.Log("Swingin'");
-		animation["Take 001"].speed = 2.5;
-		animation.Play("Take 001");
+		animation["Swing"].speed = 2.5;
+		animation.Play("Swing");
 	}
 }
