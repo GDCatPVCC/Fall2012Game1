@@ -35,8 +35,8 @@ function OnGUI()
 {	
 	//bealthbar stuff (nonoperational)
 	GUI.skin = skin;
-	GUI.DrawTexture(healthbox,healthtex);
-	damtex.Resize(healthamount*10,25);
+	GUI.Box(healthbox,healthtex);
+	//damtex.Resize(healthamount*10,25);
 	GUI.Box(damagebox,damtex);
 	GUI.TextArea(Rect(Screen.width/2-25,0,50,25),healthamountstring + "/100");
 	GUI.skin = null;

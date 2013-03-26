@@ -44,6 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\HideCursor.js" />
      <Compile Include="Assets\Scripts\Enemy\BasicEnemyManager.js" />
      <Compile Include="Assets\Scripts\Enemy\DancerSpawn.js" />
      <Compile Include="Assets\Scripts\Enemy\EnemySpawn.js" />
@@ -58,7 +59,6 @@
      <Compile Include="Assets\Scripts\GameMaster.js" />
      <Compile Include="Assets\Scripts\HUD-Pause\Fadeinthingy.js" />
      <Compile Include="Assets\Scripts\HUD-Pause\HUD.js" />
-     <Compile Include="Assets\Scripts\HUD-Pause\HideCursor.js" />
      <Compile Include="Assets\Scripts\HUD-Pause\PauseMenu.js" />
      <Compile Include="Assets\Scripts\HUD-Pause\PauseMenuScript.js" />
      <Compile Include="Assets\Scripts\HUD-Pause\TextControl.js" />
