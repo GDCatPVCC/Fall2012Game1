@@ -2,7 +2,7 @@
 
 var objectHit : GameObject;
 //How much damage the weapon does
-var attackPower : int = 50;
+var attackPower : int = 100;
 var power : float = 5;
 
 //this detects when the object hits ANY OTHER object

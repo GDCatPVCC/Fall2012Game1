@@ -3,8 +3,9 @@
 //set player in Unity GUI
 var player : GameObject;
 
-private var score : int = 0;
+var score : int = 0;
 var musicCount : float = 0.0f;
+var totalTime : float = 0;
 
 function Start () {
 	Debug.Log("I'm alive!");
@@ -19,6 +20,7 @@ function Update () {
 		musicCount += Time.deltaTime - 2;
 	//Debug.Log(musicCount);
 	
+	totalTime += Time.deltaTime;
 }
 
 //wraiths call this function from the GM when they die

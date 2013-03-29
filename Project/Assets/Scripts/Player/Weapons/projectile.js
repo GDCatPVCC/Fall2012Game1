@@ -21,7 +21,7 @@ function OnCollisionEnter( collision : Collision )
 	try 
 	{
 			//This will execute if Unity finds a BasicEnemyManager attached to the objecthit
-			collision.gameObject.GetComponent(BasicEnemyManager).TakeDamage(50);
+			collision.gameObject.GetComponent(BasicEnemyManager).TakeDamage(100);
 			//Debug.Log("Good aim!");
 			this.transform.parent = collision.transform;
 		} 

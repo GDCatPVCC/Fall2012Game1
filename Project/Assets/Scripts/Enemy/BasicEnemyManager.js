@@ -2,6 +2,7 @@
 
 private var MAX_HEALTH : int = 200;
 private var damageTaken : int = 0;
+public var GM : GameMaster;
 //private var healthStolen : int = 0;
 
 function Start () {
@@ -30,6 +31,8 @@ function RecoverDamage (damageRecovered : int) {
 
 function CheckDeath() {
 	if (damageTaken >= MAX_HEALTH) {
+		GM.addToScore(10);
+		Debug.Log(GM.score);
 		Die();
 	}
 }

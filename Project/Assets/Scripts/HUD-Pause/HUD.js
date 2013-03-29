@@ -8,6 +8,7 @@ var key3 : Texture2D;
 var size : float = 32;
 var healthamount : int = 80;
 var healthamountstring : String = "80";
+var GM : GameMaster;
 
 //creating all the rects for the hud boxes
 private var healthbox : Rect = new Rect(Screen.width/20,0,1000,25);
@@ -33,13 +34,15 @@ keybox3.y = Screen.height-keybox3.height;
 
 function OnGUI()
 {	
-	//bealthbar stuff (nonoperational)
-	GUI.skin = skin;
-	GUI.Box(healthbox,healthtex);
+	//healthbar stuff (nonoperational)
+	//GUI.skin = skin;
+	//GUI.Box(healthbox,healthtex);
 	//damtex.Resize(healthamount*10,25);
-	GUI.Box(damagebox,damtex);
-	GUI.TextArea(Rect(Screen.width/2-25,0,50,25),healthamountstring + "/100");
-	GUI.skin = null;
+	//GUI.Box(damagebox,damtex);
+	GUI.TextArea(Rect(Screen.width-100,Screen.height-300,50,50),"Current Health: \n" + healthamountstring + "/100");
+	GUI.TextArea(Rect(Screen.width-100,Screen.height-200,50,50),"Current Score: \n" + GM.score);
+	GUI.TextArea(Rect(Screen.width-100,Screen.height-100,50,50),"Current Time: \n" + GM.totalTime);
+	//GUI.skin = null;
 	//key items boxes
 	if(Input.GetKey("b"))
 	{

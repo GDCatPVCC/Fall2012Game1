@@ -3,6 +3,7 @@
 var spawnRange : int = 25;
 var noSpawnRange : int = 5;
 var enemyPrefab : GameObject;
+var GMA : GameMaster;
 
 //var disableRenderCheck : boolean = false;
 
@@ -47,6 +48,9 @@ function Update () {
 						tyty.waypoints = weighPoints;
 						tyty.player = player;
 						tyty.deathFX = this.deathFX;
+						var BEM : BasicEnemyManager = enemyPrefab.GetComponent("BasicEnemyManager");
+						BEM.GM = GMA;
+						
 						Debug.Log("You're close");
 						var temp:GameObject = Instantiate(enemyPrefab, transform.position, transform.rotation);
 						temp.tag = "Enemy";
