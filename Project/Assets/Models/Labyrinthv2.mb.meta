@@ -1,0 +1,7006 @@
+fileFormatVersion: 2
+guid: 2c90d74c83aa20e44aad28451103d3fc
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: polySurface980
+    4300002: polySurface981
+    4300004: polySurface1007
+    4300006: polySurface1008
+    4300008: polySurface1009
+    4300010: polySurface1010
+    4300012: polySurface1466
+    4300014: polySurface1604
+    4300016: polySurface2574
+    4300018: polySurface2575
+    4300020: polySurface2576
+    4300022: polySurface2577
+    4300024: polySurface2578
+    4300026: polySurface2579
+    4300028: polySurface2580
+    4300030: polySurface2581
+    4300032: polySurface2582
+    4300034: polySurface2583
+    4300036: polySurface2584
+    4300038: polySurface2585
+    4300040: polySurface2586
+    4300042: polySurface2587
+    4300044: polySurface2588
+    4300046: polySurface2589
+    4300048: polySurface1612
+    4300050: polySurface1903
+    4300052: polySurface2413
+    4300054: polySurface2414
+    4300056: polySurface2415
+    4300058: polySurface2416
+    4300060: polySurface2417
+    4300062: polySurface2418
+    4300064: polySurface2419
+    4300066: polySurface2420
+    4300068: polySurface2421
+    4300070: polySurface2422
+    4300072: polySurface2423
+    4300074: polySurface2424
+    4300076: polySurface2425
+    4300078: polySurface2426
+    4300080: polySurface2427
+    4300082: polySurface2428
+    4300084: polySurface2429
+    4300086: polySurface2430
+    4300088: polySurface2431
+    4300090: polySurface2432
+    4300092: polySurface2433
+    4300094: polySurface2434
+    4300096: polySurface2435
+    4300098: polySurface2436
+    4300100: polySurface2437
+    4300102: polySurface2438
+    4300104: polySurface2439
+    4300106: polySurface2440
+    4300108: polySurface2441
+    4300110: polySurface2442
+    4300112: polySurface2443
+    4300114: polySurface2444
+    4300116: polySurface2445
+    4300118: polySurface2446
+    4300120: polySurface2447
+    4300122: polySurface2448
+    4300124: polySurface2449
+    4300126: polySurface2450
+    4300128: polySurface2451
+    4300130: polySurface2452
+    4300132: polySurface2453
+    4300134: polySurface2454
+    4300136: polySurface2455
+    4300138: polySurface2456
+    4300140: polySurface2457
+    4300142: polySurface2458
+    4300144: polySurface2459
+    4300146: polySurface2460
+    4300148: polySurface2461
+    4300150: polySurface2462
+    4300152: polySurface2463
+    4300154: polySurface2464
+    4300156: polySurface2465
+    4300158: polySurface2466
+    4300160: polySurface2467
+    4300162: polySurface2468
+    4300164: polySurface2469
+    4300166: polySurface2470
+    4300168: polySurface2471
+    4300170: polySurface2472
+    4300172: polySurface2473
+    4300174: polySurface2474
+    4300176: polySurface2475
+    4300178: polySurface2476
+    4300180: polySurface2477
+    4300182: polySurface2478
+    4300184: polySurface1998
+    4300186: polySurface2009
+    4300188: polySurface2010
+    4300190: polySurface2020
+    4300192: polySurface2021
+    4300194: polySurface2033
+    4300196: polySurface2045
+    4300198: polySurface2046
+    4300200: polySurface2057
+    4300202: polySurface2058
+    4300204: polySurface2068
+    4300206: polySurface2069
+    4300208: polySurface1964
+    4300210: pCube120
+    4300212: pCube121
+    4300214: pCube122
+    4300216: pCube123
+    4300218: pCube124
+    4300220: pCube125
+    4300222: polySurface2173
+    4300224: polySurface2080
+    4300226: polySurface2084
+    4300228: polySurface2088
+    4300230: polySurface2089
+    4300232: polySurface2090
+    4300234: polySurface2092
+    4300236: pCube126
+    4300238: polySurface2093
+    4300240: polySurface2094
+    4300242: pCube127
+    4300244: polySurface2095
+    4300246: pCube128
+    4300248: polySurface2096
+    4300250: pCube129
+    4300252: polySurface2097
+    4300254: polySurface2098
+    4300256: polySurface2310
+    4300258: polySurface2315
+    4300260: polySurface2336
+    4300262: polySurface2341
+    4300264: polySurface2363
+    4300266: polySurface2368
+    4300268: polySurface2389
+    4300270: polySurface2394
+    4300272: pPlane2
+    4300274: pCube131
+    4300276: pCube132
+    4300278: polySurface2105
+    4300280: polySurface2106
+    4300282: polySurface2107
+    4300284: polySurface2156
+    4300286: polySurface2178
+    4300288: polySurface2240
+    4300290: polySurface2300
+    4300292: polySurface2302
+    4300294: polySurface2304
+    4300296: polySurface2479
+    4300298: polySurface2480
+    4300300: polySurface2481
+    4300302: polySurface2482
+    4300304: polySurface2483
+    4300306: polySurface2484
+    4300308: polySurface2485
+    4300310: polySurface2486
+    4300312: polySurface2487
+    4300314: polySurface2488
+    4300316: polySurface2489
+    4300318: polySurface2492
+    4300320: polySurface2493
+    4300322: polySurface2494
+    4300324: polySurface2495
+    4300326: polySurface2496
+    4300328: polySurface2497
+    4300330: polySurface2498
+    4300332: polySurface2499
+    4300334: polySurface2500
+    4300336: polySurface2502
+    4300338: polySurface2503
+    4300340: polySurface2504
+    4300342: polySurface2505
+    4300344: polySurface2506
+    4300346: polySurface2507
+    4300348: polySurface2508
+    4300350: polySurface2509
+    4300352: polySurface2510
+    4300354: polySurface2511
+    4300356: polySurface2512
+    4300358: polySurface2513
+    4300360: polySurface2515
+    4300362: polySurface2516
+    4300364: polySurface2517
+    4300366: polySurface2518
+    4300368: polySurface2519
+    4300370: polySurface2520
+    4300372: polySurface2521
+    4300374: polySurface2522
+    4300376: polySurface2523
+    4300378: polySurface2525
+    4300380: polySurface2526
+    4300382: polySurface2527
+    4300384: polySurface2528
+    4300386: polySurface2529
+    4300388: polySurface2530
+    4300390: polySurface2531
+    4300392: polySurface2532
+    4300394: polySurface2533
+    4300396: polySurface2534
+    4300398: polySurface2535
+    4300400: polySurface2538
+    4300402: polySurface2539
+    4300404: polySurface2540
+    4300406: polySurface2541
+    4300408: polySurface2542
+    4300410: polySurface2543
+    4300412: polySurface2544
+    4300414: polySurface2545
+    4300416: polySurface2546
+    4300418: polySurface2547
+    4300420: polySurface2548
+    4300422: polySurface2549
+    4300424: polySurface2550
+    4300426: polySurface2551
+    4300428: polySurface2552
+    4300430: polySurface2553
+    4300432: polySurface2554
+    4300434: polySurface2555
+    4300436: polySurface2556
+    4300438: polySurface2557
+    4300440: polySurface2558
+    4300442: polySurface2559
+    4300444: polySurface2560
+    4300446: polySurface2562
+    4300448: polySurface2563
+    4300450: polySurface2564
+    4300452: polySurface2565
+    4300454: polySurface2566
+    4300456: polySurface2567
+    4300458: polySurface2568
+    4300460: polySurface2569
+    4300462: polySurface2570
+    4300464: polySurface2571
+    4300466: polySurface2572
+    4300468: polySurface2573
+    4300470: pPlane9
+    4300472: pPlane10
+    4300474: pPlane11
+    4300476: polySurface2590
+    4300478: pPlane12
+    4300480: pPlane13
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 3
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 111
+        second: 605fa900
+    pCube120:
+      data:
+        first: 1
+        second: 408b0100
+      data:
+        first: 4
+        second: 201f0600
+      data:
+        first: 23
+        second: 6e192300
+      data:
+        first: 33
+        second: ae5b3200
+    pCube121:
+      data:
+        first: 1
+        second: 3e8b0100
+      data:
+        first: 4
+        second: 1e1f0600
+      data:
+        first: 23
+        second: 6c192300
+      data:
+        first: 33
+        second: ac5b3200
+    pCube122:
+      data:
+        first: 1
+        second: 3c8b0100
+      data:
+        first: 4
+        second: 1c1f0600
+      data:
+        first: 23
+        second: 6a192300
+      data:
+        first: 33
+        second: aa5b3200
+    pCube123:
+      data:
+        first: 1
+        second: 3a8b0100
+      data:
+        first: 4
+        second: 1a1f0600
+      data:
+        first: 23
+        second: 68192300
+      data:
+        first: 33
+        second: a85b3200
+    pCube124:
+      data:
+        first: 1
+        second: 388b0100
+      data:
+        first: 4
+        second: 181f0600
+      data:
+        first: 23
+        second: 66192300
+      data:
+        first: 33
+        second: a65b3200
+    pCube125:
+      data:
+        first: 1
+        second: 368b0100
+      data:
+        first: 4
+        second: 161f0600
+      data:
+        first: 23
+        second: 64192300
+      data:
+        first: 33
+        second: a45b3200
+    pCube126:
+      data:
+        first: 1
+        second: 62890100
+      data:
+        first: 4
+        second: 421d0600
+      data:
+        first: 23
+        second: 54192300
+      data:
+        first: 33
+        second: 945b3200
+    pCube127:
+      data:
+        first: 1
+        second: 5c890100
+      data:
+        first: 4
+        second: 3c1d0600
+      data:
+        first: 23
+        second: 4e192300
+      data:
+        first: 33
+        second: 8e5b3200
+    pCube128:
+      data:
+        first: 1
+        second: 58890100
+      data:
+        first: 4
+        second: 381d0600
+      data:
+        first: 23
+        second: 4a192300
+      data:
+        first: 33
+        second: 8a5b3200
+    pCube129:
+      data:
+        first: 1
+        second: 54890100
+      data:
+        first: 4
+        second: 341d0600
+      data:
+        first: 23
+        second: 46192300
+      data:
+        first: 33
+        second: 865b3200
+    pCube131:
+      data:
+        first: 1
+        second: bc870100
+      data:
+        first: 4
+        second: 9c1b0600
+      data:
+        first: 23
+        second: 2e192300
+      data:
+        first: 33
+        second: 6e5b3200
+    pCube132:
+      data:
+        first: 1
+        second: ba870100
+      data:
+        first: 4
+        second: 9a1b0600
+      data:
+        first: 23
+        second: 2c192300
+      data:
+        first: 33
+        second: 6c5b3200
+    pCube94:
+      data:
+        first: 1
+        second: 668c0100
+      data:
+        first: 4
+        second: 46200600
+    pPlane10:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 23
+        second: 68182300
+      data:
+        first: 33
+        second: a85a3200
+    pPlane11:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    pPlane12:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    pPlane13:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    pPlane2:
+      data:
+        first: 1
+        second: be870100
+      data:
+        first: 4
+        second: 9e1b0600
+      data:
+        first: 23
+        second: 30192300
+      data:
+        first: 33
+        second: 705b3200
+    pPlane3:
+      data:
+        first: 1
+        second: b6870100
+      data:
+        first: 4
+        second: 961b0600
+    pPlane4:
+      data:
+        first: 1
+        second: b0870100
+      data:
+        first: 4
+        second: 901b0600
+    pPlane5:
+      data:
+        first: 1
+        second: 9a870100
+      data:
+        first: 4
+        second: 7a1b0600
+    pPlane6:
+      data:
+        first: 1
+        second: 7c870100
+      data:
+        first: 4
+        second: 5c1b0600
+    pPlane7:
+      data:
+        first: 1
+        second: 72870100
+      data:
+        first: 4
+        second: 521b0600
+    pPlane8:
+      data:
+        first: 1
+        second: 68870100
+      data:
+        first: 4
+        second: 481b0600
+    pPlane9:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 6a182300
+      data:
+        first: 33
+        second: aa5a3200
+    polySurface1007:
+      data:
+        first: 1
+        second: 7e8c0100
+      data:
+        first: 4
+        second: 5e200600
+      data:
+        first: 23
+        second: 3c1a2300
+      data:
+        first: 33
+        second: 7c5c3200
+    polySurface1008:
+      data:
+        first: 1
+        second: 7c8c0100
+      data:
+        first: 4
+        second: 5c200600
+      data:
+        first: 23
+        second: 3a1a2300
+      data:
+        first: 33
+        second: 7a5c3200
+    polySurface1009:
+      data:
+        first: 1
+        second: 7a8c0100
+      data:
+        first: 4
+        second: 5a200600
+      data:
+        first: 23
+        second: 381a2300
+      data:
+        first: 33
+        second: 785c3200
+    polySurface1010:
+      data:
+        first: 1
+        second: 788c0100
+      data:
+        first: 4
+        second: 58200600
+      data:
+        first: 23
+        second: 361a2300
+      data:
+        first: 33
+        second: 765c3200
+    polySurface1290:
+      data:
+        first: 1
+        second: 768c0100
+      data:
+        first: 4
+        second: 56200600
+    polySurface1291:
+      data:
+        first: 1
+        second: 728c0100
+      data:
+        first: 4
+        second: 52200600
+    polySurface1306:
+      data:
+        first: 1
+        second: 6e8c0100
+      data:
+        first: 4
+        second: 4e200600
+    polySurface1466:
+      data:
+        first: 1
+        second: 6a8c0100
+      data:
+        first: 4
+        second: 4a200600
+      data:
+        first: 23
+        second: 341a2300
+      data:
+        first: 33
+        second: 745c3200
+    polySurface1604:
+      data:
+        first: 1
+        second: 688c0100
+      data:
+        first: 4
+        second: 48200600
+      data:
+        first: 23
+        second: 321a2300
+      data:
+        first: 33
+        second: 725c3200
+    polySurface1612:
+      data:
+        first: 1
+        second: 428c0100
+      data:
+        first: 4
+        second: 22200600
+      data:
+        first: 23
+        second: 101a2300
+      data:
+        first: 33
+        second: 505c3200
+    polySurface1903:
+      data:
+        first: 1
+        second: 408c0100
+      data:
+        first: 4
+        second: 20200600
+      data:
+        first: 23
+        second: 0e1a2300
+      data:
+        first: 33
+        second: 4e5c3200
+    polySurface1909:
+      data:
+        first: 1
+        second: 3e8c0100
+      data:
+        first: 4
+        second: 1e200600
+    polySurface1934:
+      data:
+        first: 1
+        second: 3a8c0100
+      data:
+        first: 4
+        second: 1a200600
+    polySurface1964:
+      data:
+        first: 1
+        second: 428b0100
+      data:
+        first: 4
+        second: 221f0600
+      data:
+        first: 23
+        second: 70192300
+      data:
+        first: 33
+        second: b05b3200
+    polySurface1987:
+      data:
+        first: 1
+        second: b28b0100
+      data:
+        first: 4
+        second: 921f0600
+    polySurface1989:
+      data:
+        first: 1
+        second: ae8b0100
+      data:
+        first: 4
+        second: 8e1f0600
+    polySurface1996:
+      data:
+        first: 1
+        second: aa8b0100
+      data:
+        first: 4
+        second: 8a1f0600
+    polySurface1998:
+      data:
+        first: 1
+        second: a68b0100
+      data:
+        first: 4
+        second: 861f0600
+      data:
+        first: 23
+        second: 88192300
+      data:
+        first: 33
+        second: c85b3200
+    polySurface2002:
+      data:
+        first: 1
+        second: a48b0100
+      data:
+        first: 4
+        second: 841f0600
+    polySurface2003:
+      data:
+        first: 1
+        second: a08b0100
+      data:
+        first: 4
+        second: 801f0600
+    polySurface2004:
+      data:
+        first: 1
+        second: 9c8b0100
+      data:
+        first: 4
+        second: 7c1f0600
+    polySurface2005:
+      data:
+        first: 1
+        second: 988b0100
+      data:
+        first: 4
+        second: 781f0600
+    polySurface2009:
+      data:
+        first: 1
+        second: 948b0100
+      data:
+        first: 4
+        second: 741f0600
+      data:
+        first: 23
+        second: 86192300
+      data:
+        first: 33
+        second: c65b3200
+    polySurface2010:
+      data:
+        first: 1
+        second: 928b0100
+      data:
+        first: 4
+        second: 721f0600
+      data:
+        first: 23
+        second: 84192300
+      data:
+        first: 33
+        second: c45b3200
+    polySurface2018:
+      data:
+        first: 1
+        second: 908b0100
+      data:
+        first: 4
+        second: 701f0600
+    polySurface2020:
+      data:
+        first: 1
+        second: 8c8b0100
+      data:
+        first: 4
+        second: 6c1f0600
+      data:
+        first: 23
+        second: 82192300
+      data:
+        first: 33
+        second: c25b3200
+    polySurface2021:
+      data:
+        first: 1
+        second: 8a8b0100
+      data:
+        first: 4
+        second: 6a1f0600
+      data:
+        first: 23
+        second: 80192300
+      data:
+        first: 33
+        second: c05b3200
+    polySurface2031:
+      data:
+        first: 1
+        second: 888b0100
+      data:
+        first: 4
+        second: 681f0600
+    polySurface2033:
+      data:
+        first: 1
+        second: 848b0100
+      data:
+        first: 4
+        second: 641f0600
+      data:
+        first: 23
+        second: 7e192300
+      data:
+        first: 33
+        second: be5b3200
+    polySurface2038:
+      data:
+        first: 1
+        second: 828b0100
+      data:
+        first: 4
+        second: 621f0600
+    polySurface2043:
+      data:
+        first: 1
+        second: 5a8b0100
+      data:
+        first: 4
+        second: 3a1f0600
+    polySurface2045:
+      data:
+        first: 1
+        second: 568b0100
+      data:
+        first: 4
+        second: 361f0600
+      data:
+        first: 23
+        second: 7c192300
+      data:
+        first: 33
+        second: bc5b3200
+    polySurface2046:
+      data:
+        first: 1
+        second: 548b0100
+      data:
+        first: 4
+        second: 341f0600
+      data:
+        first: 23
+        second: 7a192300
+      data:
+        first: 33
+        second: ba5b3200
+    polySurface2055:
+      data:
+        first: 1
+        second: 528b0100
+      data:
+        first: 4
+        second: 321f0600
+    polySurface2057:
+      data:
+        first: 1
+        second: 4e8b0100
+      data:
+        first: 4
+        second: 2e1f0600
+      data:
+        first: 23
+        second: 78192300
+      data:
+        first: 33
+        second: b85b3200
+    polySurface2058:
+      data:
+        first: 1
+        second: 4c8b0100
+      data:
+        first: 4
+        second: 2c1f0600
+      data:
+        first: 23
+        second: 76192300
+      data:
+        first: 33
+        second: b65b3200
+    polySurface2066:
+      data:
+        first: 1
+        second: 4a8b0100
+      data:
+        first: 4
+        second: 2a1f0600
+    polySurface2068:
+      data:
+        first: 1
+        second: 468b0100
+      data:
+        first: 4
+        second: 261f0600
+      data:
+        first: 23
+        second: 74192300
+      data:
+        first: 33
+        second: b45b3200
+    polySurface2069:
+      data:
+        first: 1
+        second: 448b0100
+      data:
+        first: 4
+        second: 241f0600
+      data:
+        first: 23
+        second: 72192300
+      data:
+        first: 33
+        second: b25b3200
+    polySurface2076:
+      data:
+        first: 1
+        second: 348b0100
+      data:
+        first: 4
+        second: 141f0600
+    polySurface2077:
+      data:
+        first: 1
+        second: 7a890100
+      data:
+        first: 4
+        second: 5a1d0600
+    polySurface2078:
+      data:
+        first: 1
+        second: 76890100
+      data:
+        first: 4
+        second: 561d0600
+    polySurface2080:
+      data:
+        first: 1
+        second: 72890100
+      data:
+        first: 4
+        second: 521d0600
+      data:
+        first: 23
+        second: 60192300
+      data:
+        first: 33
+        second: a05b3200
+    polySurface2084:
+      data:
+        first: 1
+        second: 70890100
+      data:
+        first: 4
+        second: 501d0600
+      data:
+        first: 23
+        second: 5e192300
+      data:
+        first: 33
+        second: 9e5b3200
+    polySurface2086:
+      data:
+        first: 1
+        second: 6e890100
+      data:
+        first: 4
+        second: 4e1d0600
+    polySurface2088:
+      data:
+        first: 1
+        second: 6a890100
+      data:
+        first: 4
+        second: 4a1d0600
+      data:
+        first: 23
+        second: 5c192300
+      data:
+        first: 33
+        second: 9c5b3200
+    polySurface2089:
+      data:
+        first: 1
+        second: 68890100
+      data:
+        first: 4
+        second: 481d0600
+      data:
+        first: 23
+        second: 5a192300
+      data:
+        first: 33
+        second: 9a5b3200
+    polySurface2090:
+      data:
+        first: 1
+        second: 66890100
+      data:
+        first: 4
+        second: 461d0600
+      data:
+        first: 23
+        second: 58192300
+      data:
+        first: 33
+        second: 985b3200
+    polySurface2092:
+      data:
+        first: 1
+        second: 64890100
+      data:
+        first: 4
+        second: 441d0600
+      data:
+        first: 23
+        second: 56192300
+      data:
+        first: 33
+        second: 965b3200
+    polySurface2093:
+      data:
+        first: 1
+        second: 60890100
+      data:
+        first: 4
+        second: 401d0600
+      data:
+        first: 23
+        second: 52192300
+      data:
+        first: 33
+        second: 925b3200
+    polySurface2094:
+      data:
+        first: 1
+        second: 5e890100
+      data:
+        first: 4
+        second: 3e1d0600
+      data:
+        first: 23
+        second: 50192300
+      data:
+        first: 33
+        second: 905b3200
+    polySurface2095:
+      data:
+        first: 1
+        second: 5a890100
+      data:
+        first: 4
+        second: 3a1d0600
+      data:
+        first: 23
+        second: 4c192300
+      data:
+        first: 33
+        second: 8c5b3200
+    polySurface2096:
+      data:
+        first: 1
+        second: 56890100
+      data:
+        first: 4
+        second: 361d0600
+      data:
+        first: 23
+        second: 48192300
+      data:
+        first: 33
+        second: 885b3200
+    polySurface2097:
+      data:
+        first: 1
+        second: 52890100
+      data:
+        first: 4
+        second: 321d0600
+      data:
+        first: 23
+        second: 44192300
+      data:
+        first: 33
+        second: 845b3200
+    polySurface2098:
+      data:
+        first: 1
+        second: 50890100
+      data:
+        first: 4
+        second: 301d0600
+      data:
+        first: 23
+        second: 42192300
+      data:
+        first: 33
+        second: 825b3200
+    polySurface2102:
+      data:
+        first: 1
+        second: 4e890100
+      data:
+        first: 4
+        second: 2e1d0600
+    polySurface2105:
+      data:
+        first: 1
+        second: b8870100
+      data:
+        first: 4
+        second: 981b0600
+      data:
+        first: 23
+        second: 2a192300
+      data:
+        first: 33
+        second: 6a5b3200
+    polySurface2106:
+      data:
+        first: 1
+        second: b2870100
+      data:
+        first: 4
+        second: 921b0600
+      data:
+        first: 23
+        second: 28192300
+      data:
+        first: 33
+        second: 685b3200
+    polySurface2107:
+      data:
+        first: 1
+        second: ac870100
+      data:
+        first: 4
+        second: 8c1b0600
+      data:
+        first: 23
+        second: 26192300
+      data:
+        first: 33
+        second: 665b3200
+    polySurface2108:
+      data:
+        first: 1
+        second: 328b0100
+      data:
+        first: 4
+        second: 121f0600
+    polySurface2109:
+      data:
+        first: 1
+        second: 2e8b0100
+      data:
+        first: 4
+        second: 0e1f0600
+    polySurface2110:
+      data:
+        first: 1
+        second: 2a8b0100
+      data:
+        first: 4
+        second: 0a1f0600
+    polySurface2111:
+      data:
+        first: 1
+        second: 268b0100
+      data:
+        first: 4
+        second: 061f0600
+    polySurface2112:
+      data:
+        first: 1
+        second: 228b0100
+      data:
+        first: 4
+        second: 021f0600
+    polySurface2113:
+      data:
+        first: 1
+        second: 1e8b0100
+      data:
+        first: 4
+        second: fe1e0600
+    polySurface2114:
+      data:
+        first: 1
+        second: 1a8b0100
+      data:
+        first: 4
+        second: fa1e0600
+    polySurface2115:
+      data:
+        first: 1
+        second: 168b0100
+      data:
+        first: 4
+        second: f61e0600
+    polySurface2116:
+      data:
+        first: 1
+        second: 128b0100
+      data:
+        first: 4
+        second: f21e0600
+    polySurface2117:
+      data:
+        first: 1
+        second: 0e8b0100
+      data:
+        first: 4
+        second: ee1e0600
+    polySurface2118:
+      data:
+        first: 1
+        second: 0a8b0100
+      data:
+        first: 4
+        second: ea1e0600
+    polySurface2119:
+      data:
+        first: 1
+        second: 068b0100
+      data:
+        first: 4
+        second: e61e0600
+    polySurface2120:
+      data:
+        first: 1
+        second: 028b0100
+      data:
+        first: 4
+        second: e21e0600
+    polySurface2121:
+      data:
+        first: 1
+        second: fe8a0100
+      data:
+        first: 4
+        second: de1e0600
+    polySurface2122:
+      data:
+        first: 1
+        second: fa8a0100
+      data:
+        first: 4
+        second: da1e0600
+    polySurface2123:
+      data:
+        first: 1
+        second: f68a0100
+      data:
+        first: 4
+        second: d61e0600
+    polySurface2124:
+      data:
+        first: 1
+        second: f28a0100
+      data:
+        first: 4
+        second: d21e0600
+    polySurface2125:
+      data:
+        first: 1
+        second: ee8a0100
+      data:
+        first: 4
+        second: ce1e0600
+    polySurface2126:
+      data:
+        first: 1
+        second: ea8a0100
+      data:
+        first: 4
+        second: ca1e0600
+    polySurface2127:
+      data:
+        first: 1
+        second: e68a0100
+      data:
+        first: 4
+        second: c61e0600
+    polySurface2128:
+      data:
+        first: 1
+        second: e28a0100
+      data:
+        first: 4
+        second: c21e0600
+    polySurface2129:
+      data:
+        first: 1
+        second: de8a0100
+      data:
+        first: 4
+        second: be1e0600
+    polySurface2130:
+      data:
+        first: 1
+        second: da8a0100
+      data:
+        first: 4
+        second: ba1e0600
+    polySurface2131:
+      data:
+        first: 1
+        second: d68a0100
+      data:
+        first: 4
+        second: b61e0600
+    polySurface2132:
+      data:
+        first: 1
+        second: d28a0100
+      data:
+        first: 4
+        second: b21e0600
+    polySurface2133:
+      data:
+        first: 1
+        second: ce8a0100
+      data:
+        first: 4
+        second: ae1e0600
+    polySurface2134:
+      data:
+        first: 1
+        second: ca8a0100
+      data:
+        first: 4
+        second: aa1e0600
+    polySurface2135:
+      data:
+        first: 1
+        second: c68a0100
+      data:
+        first: 4
+        second: a61e0600
+    polySurface2136:
+      data:
+        first: 1
+        second: c28a0100
+      data:
+        first: 4
+        second: a21e0600
+    polySurface2137:
+      data:
+        first: 1
+        second: be8a0100
+      data:
+        first: 4
+        second: 9e1e0600
+    polySurface2138:
+      data:
+        first: 1
+        second: ba8a0100
+      data:
+        first: 4
+        second: 9a1e0600
+    polySurface2139:
+      data:
+        first: 1
+        second: b68a0100
+      data:
+        first: 4
+        second: 961e0600
+    polySurface2140:
+      data:
+        first: 1
+        second: b28a0100
+      data:
+        first: 4
+        second: 921e0600
+    polySurface2141:
+      data:
+        first: 1
+        second: ae8a0100
+      data:
+        first: 4
+        second: 8e1e0600
+    polySurface2142:
+      data:
+        first: 1
+        second: aa8a0100
+      data:
+        first: 4
+        second: 8a1e0600
+    polySurface2143:
+      data:
+        first: 1
+        second: a68a0100
+      data:
+        first: 4
+        second: 861e0600
+    polySurface2144:
+      data:
+        first: 1
+        second: a28a0100
+      data:
+        first: 4
+        second: 821e0600
+    polySurface2145:
+      data:
+        first: 1
+        second: 9e8a0100
+      data:
+        first: 4
+        second: 7e1e0600
+    polySurface2146:
+      data:
+        first: 1
+        second: 9a8a0100
+      data:
+        first: 4
+        second: 7a1e0600
+    polySurface2147:
+      data:
+        first: 1
+        second: 968a0100
+      data:
+        first: 4
+        second: 761e0600
+    polySurface2148:
+      data:
+        first: 1
+        second: 928a0100
+      data:
+        first: 4
+        second: 721e0600
+    polySurface2149:
+      data:
+        first: 1
+        second: 8e8a0100
+      data:
+        first: 4
+        second: 6e1e0600
+    polySurface2150:
+      data:
+        first: 1
+        second: 8a8a0100
+      data:
+        first: 4
+        second: 6a1e0600
+    polySurface2151:
+      data:
+        first: 1
+        second: 868a0100
+      data:
+        first: 4
+        second: 661e0600
+    polySurface2152:
+      data:
+        first: 1
+        second: aa870100
+      data:
+        first: 4
+        second: 8a1b0600
+    polySurface2153:
+      data:
+        first: 1
+        second: a6870100
+      data:
+        first: 4
+        second: 861b0600
+    polySurface2154:
+      data:
+        first: 1
+        second: a2870100
+      data:
+        first: 4
+        second: 821b0600
+    polySurface2155:
+      data:
+        first: 1
+        second: 9e870100
+      data:
+        first: 4
+        second: 7e1b0600
+    polySurface2156:
+      data:
+        first: 1
+        second: 96870100
+      data:
+        first: 4
+        second: 761b0600
+      data:
+        first: 23
+        second: 24192300
+      data:
+        first: 33
+        second: 645b3200
+    polySurface2157:
+      data:
+        first: 1
+        second: 848a0100
+      data:
+        first: 4
+        second: 641e0600
+    polySurface2158:
+      data:
+        first: 1
+        second: 808a0100
+      data:
+        first: 4
+        second: 601e0600
+    polySurface2159:
+      data:
+        first: 1
+        second: 7c8a0100
+      data:
+        first: 4
+        second: 5c1e0600
+    polySurface2160:
+      data:
+        first: 1
+        second: 788a0100
+      data:
+        first: 4
+        second: 581e0600
+    polySurface2161:
+      data:
+        first: 1
+        second: 748a0100
+      data:
+        first: 4
+        second: 541e0600
+    polySurface2162:
+      data:
+        first: 1
+        second: 708a0100
+      data:
+        first: 4
+        second: 501e0600
+    polySurface2165:
+      data:
+        first: 1
+        second: 6c8a0100
+      data:
+        first: 4
+        second: 4c1e0600
+    polySurface2166:
+      data:
+        first: 1
+        second: 688a0100
+      data:
+        first: 4
+        second: 481e0600
+    polySurface2168:
+      data:
+        first: 1
+        second: 648a0100
+      data:
+        first: 4
+        second: 441e0600
+    polySurface2169:
+      data:
+        first: 1
+        second: 608a0100
+      data:
+        first: 4
+        second: 401e0600
+    polySurface2170:
+      data:
+        first: 1
+        second: 5c8a0100
+      data:
+        first: 4
+        second: 3c1e0600
+    polySurface2171:
+      data:
+        first: 1
+        second: 588a0100
+      data:
+        first: 4
+        second: 381e0600
+    polySurface2172:
+      data:
+        first: 1
+        second: 548a0100
+      data:
+        first: 4
+        second: 341e0600
+    polySurface2173:
+      data:
+        first: 1
+        second: 508a0100
+      data:
+        first: 4
+        second: 301e0600
+      data:
+        first: 23
+        second: 62192300
+      data:
+        first: 33
+        second: a25b3200
+    polySurface2174:
+      data:
+        first: 1
+        second: 4e8a0100
+      data:
+        first: 4
+        second: 2e1e0600
+    polySurface2175:
+      data:
+        first: 1
+        second: 4a8a0100
+      data:
+        first: 4
+        second: 2a1e0600
+    polySurface2176:
+      data:
+        first: 1
+        second: 94870100
+      data:
+        first: 4
+        second: 741b0600
+    polySurface2177:
+      data:
+        first: 1
+        second: 90870100
+      data:
+        first: 4
+        second: 701b0600
+    polySurface2178:
+      data:
+        first: 1
+        second: 8c870100
+      data:
+        first: 4
+        second: 6c1b0600
+      data:
+        first: 23
+        second: 22192300
+      data:
+        first: 33
+        second: 625b3200
+    polySurface2179:
+      data:
+        first: 1
+        second: 488a0100
+      data:
+        first: 4
+        second: 281e0600
+    polySurface2180:
+      data:
+        first: 1
+        second: 448a0100
+      data:
+        first: 4
+        second: 241e0600
+    polySurface2181:
+      data:
+        first: 1
+        second: 408a0100
+      data:
+        first: 4
+        second: 201e0600
+    polySurface2182:
+      data:
+        first: 1
+        second: 3c8a0100
+      data:
+        first: 4
+        second: 1c1e0600
+    polySurface2185:
+      data:
+        first: 1
+        second: 388a0100
+      data:
+        first: 4
+        second: 181e0600
+    polySurface2188:
+      data:
+        first: 1
+        second: 348a0100
+      data:
+        first: 4
+        second: 141e0600
+    polySurface2189:
+      data:
+        first: 1
+        second: 308a0100
+      data:
+        first: 4
+        second: 101e0600
+    polySurface2190:
+      data:
+        first: 1
+        second: 2c8a0100
+      data:
+        first: 4
+        second: 0c1e0600
+    polySurface2191:
+      data:
+        first: 1
+        second: 288a0100
+      data:
+        first: 4
+        second: 081e0600
+    polySurface2192:
+      data:
+        first: 1
+        second: 248a0100
+      data:
+        first: 4
+        second: 041e0600
+    polySurface2193:
+      data:
+        first: 1
+        second: 208a0100
+      data:
+        first: 4
+        second: 001e0600
+    polySurface2194:
+      data:
+        first: 1
+        second: 1c8a0100
+      data:
+        first: 4
+        second: fc1d0600
+    polySurface2195:
+      data:
+        first: 1
+        second: 188a0100
+      data:
+        first: 4
+        second: f81d0600
+    polySurface2196:
+      data:
+        first: 1
+        second: 148a0100
+      data:
+        first: 4
+        second: f41d0600
+    polySurface2197:
+      data:
+        first: 1
+        second: 108a0100
+      data:
+        first: 4
+        second: f01d0600
+    polySurface2198:
+      data:
+        first: 1
+        second: 0c8a0100
+      data:
+        first: 4
+        second: ec1d0600
+    polySurface2199:
+      data:
+        first: 1
+        second: 088a0100
+      data:
+        first: 4
+        second: e81d0600
+    polySurface2200:
+      data:
+        first: 1
+        second: 048a0100
+      data:
+        first: 4
+        second: e41d0600
+    polySurface2201:
+      data:
+        first: 1
+        second: 008a0100
+      data:
+        first: 4
+        second: e01d0600
+    polySurface2202:
+      data:
+        first: 1
+        second: fc890100
+      data:
+        first: 4
+        second: dc1d0600
+    polySurface2208:
+      data:
+        first: 1
+        second: f8890100
+      data:
+        first: 4
+        second: d81d0600
+    polySurface2209:
+      data:
+        first: 1
+        second: f4890100
+      data:
+        first: 4
+        second: d41d0600
+    polySurface2210:
+      data:
+        first: 1
+        second: f0890100
+      data:
+        first: 4
+        second: d01d0600
+    polySurface2211:
+      data:
+        first: 1
+        second: ec890100
+      data:
+        first: 4
+        second: cc1d0600
+    polySurface2212:
+      data:
+        first: 1
+        second: e8890100
+      data:
+        first: 4
+        second: c81d0600
+    polySurface2213:
+      data:
+        first: 1
+        second: e4890100
+      data:
+        first: 4
+        second: c41d0600
+    polySurface2214:
+      data:
+        first: 1
+        second: e0890100
+      data:
+        first: 4
+        second: c01d0600
+    polySurface2215:
+      data:
+        first: 1
+        second: dc890100
+      data:
+        first: 4
+        second: bc1d0600
+    polySurface2216:
+      data:
+        first: 1
+        second: d8890100
+      data:
+        first: 4
+        second: b81d0600
+    polySurface2217:
+      data:
+        first: 1
+        second: d4890100
+      data:
+        first: 4
+        second: b41d0600
+    polySurface2218:
+      data:
+        first: 1
+        second: d0890100
+      data:
+        first: 4
+        second: b01d0600
+    polySurface2219:
+      data:
+        first: 1
+        second: cc890100
+      data:
+        first: 4
+        second: ac1d0600
+    polySurface2220:
+      data:
+        first: 1
+        second: c8890100
+      data:
+        first: 4
+        second: a81d0600
+    polySurface2221:
+      data:
+        first: 1
+        second: c4890100
+      data:
+        first: 4
+        second: a41d0600
+    polySurface2222:
+      data:
+        first: 1
+        second: c0890100
+      data:
+        first: 4
+        second: a01d0600
+    polySurface2223:
+      data:
+        first: 1
+        second: bc890100
+      data:
+        first: 4
+        second: 9c1d0600
+    polySurface2224:
+      data:
+        first: 1
+        second: b8890100
+      data:
+        first: 4
+        second: 981d0600
+    polySurface2225:
+      data:
+        first: 1
+        second: b4890100
+      data:
+        first: 4
+        second: 941d0600
+    polySurface2226:
+      data:
+        first: 1
+        second: b0890100
+      data:
+        first: 4
+        second: 901d0600
+    polySurface2227:
+      data:
+        first: 1
+        second: ac890100
+      data:
+        first: 4
+        second: 8c1d0600
+    polySurface2229:
+      data:
+        first: 1
+        second: a8890100
+      data:
+        first: 4
+        second: 881d0600
+    polySurface2230:
+      data:
+        first: 1
+        second: a4890100
+      data:
+        first: 4
+        second: 841d0600
+    polySurface2231:
+      data:
+        first: 1
+        second: a0890100
+      data:
+        first: 4
+        second: 801d0600
+    polySurface2232:
+      data:
+        first: 1
+        second: 9c890100
+      data:
+        first: 4
+        second: 7c1d0600
+    polySurface2233:
+      data:
+        first: 1
+        second: 98890100
+      data:
+        first: 4
+        second: 781d0600
+    polySurface2234:
+      data:
+        first: 1
+        second: 94890100
+      data:
+        first: 4
+        second: 741d0600
+    polySurface2235:
+      data:
+        first: 1
+        second: 90890100
+      data:
+        first: 4
+        second: 701d0600
+    polySurface2236:
+      data:
+        first: 1
+        second: 8c890100
+      data:
+        first: 4
+        second: 6c1d0600
+    polySurface2237:
+      data:
+        first: 1
+        second: 88890100
+      data:
+        first: 4
+        second: 681d0600
+    polySurface2238:
+      data:
+        first: 1
+        second: 84890100
+      data:
+        first: 4
+        second: 641d0600
+    polySurface2240:
+      data:
+        first: 1
+        second: 8a870100
+      data:
+        first: 4
+        second: 6a1b0600
+      data:
+        first: 23
+        second: 20192300
+      data:
+        first: 33
+        second: 605b3200
+    polySurface2241:
+      data:
+        first: 1
+        second: 808b0100
+      data:
+        first: 4
+        second: 601f0600
+    polySurface2244:
+      data:
+        first: 1
+        second: 7c8b0100
+      data:
+        first: 4
+        second: 5c1f0600
+    polySurface2246:
+      data:
+        first: 1
+        second: 7a8b0100
+      data:
+        first: 4
+        second: 5a1f0600
+    polySurface2249:
+      data:
+        first: 1
+        second: 768b0100
+      data:
+        first: 4
+        second: 561f0600
+    polySurface2250:
+      data:
+        first: 1
+        second: 88870100
+      data:
+        first: 4
+        second: 681b0600
+    polySurface2251:
+      data:
+        first: 1
+        second: 748b0100
+      data:
+        first: 4
+        second: 541f0600
+    polySurface2261:
+      data:
+        first: 1
+        second: 708b0100
+      data:
+        first: 4
+        second: 501f0600
+    polySurface2267:
+      data:
+        first: 1
+        second: 6c8b0100
+      data:
+        first: 4
+        second: 4c1f0600
+    polySurface2274:
+      data:
+        first: 1
+        second: 688b0100
+      data:
+        first: 4
+        second: 481f0600
+    polySurface2297:
+      data:
+        first: 1
+        second: 648b0100
+      data:
+        first: 4
+        second: 441f0600
+    polySurface2298:
+      data:
+        first: 1
+        second: 84870100
+      data:
+        first: 4
+        second: 641b0600
+    polySurface2299:
+      data:
+        first: 1
+        second: 80870100
+      data:
+        first: 4
+        second: 601b0600
+    polySurface2300:
+      data:
+        first: 1
+        second: 78870100
+      data:
+        first: 4
+        second: 581b0600
+      data:
+        first: 23
+        second: 1e192300
+      data:
+        first: 33
+        second: 5e5b3200
+    polySurface2301:
+      data:
+        first: 1
+        second: 76870100
+      data:
+        first: 4
+        second: 561b0600
+    polySurface2302:
+      data:
+        first: 1
+        second: 6e870100
+      data:
+        first: 4
+        second: 4e1b0600
+      data:
+        first: 23
+        second: 1c192300
+      data:
+        first: 33
+        second: 5c5b3200
+    polySurface2303:
+      data:
+        first: 1
+        second: 6c870100
+      data:
+        first: 4
+        second: 4c1b0600
+    polySurface2304:
+      data:
+        first: 1
+        second: 64870100
+      data:
+        first: 4
+        second: 441b0600
+      data:
+        first: 23
+        second: 1a192300
+      data:
+        first: 33
+        second: 5a5b3200
+    polySurface2305:
+      data:
+        first: 1
+        second: 62870100
+      data:
+        first: 4
+        second: 421b0600
+    polySurface2306:
+      data:
+        first: 1
+        second: 4c890100
+      data:
+        first: 4
+        second: 2c1d0600
+    polySurface2307:
+      data:
+        first: 1
+        second: 48890100
+      data:
+        first: 4
+        second: 281d0600
+    polySurface2308:
+      data:
+        first: 1
+        second: 44890100
+      data:
+        first: 4
+        second: 241d0600
+    polySurface2309:
+      data:
+        first: 1
+        second: 40890100
+      data:
+        first: 4
+        second: 201d0600
+    polySurface2310:
+      data:
+        first: 1
+        second: 3c890100
+      data:
+        first: 4
+        second: 1c1d0600
+      data:
+        first: 23
+        second: 40192300
+      data:
+        first: 33
+        second: 805b3200
+    polySurface2311:
+      data:
+        first: 1
+        second: 3a890100
+      data:
+        first: 4
+        second: 1a1d0600
+    polySurface2312:
+      data:
+        first: 1
+        second: 36890100
+      data:
+        first: 4
+        second: 161d0600
+    polySurface2313:
+      data:
+        first: 1
+        second: 32890100
+      data:
+        first: 4
+        second: 121d0600
+    polySurface2314:
+      data:
+        first: 1
+        second: 2e890100
+      data:
+        first: 4
+        second: 0e1d0600
+    polySurface2315:
+      data:
+        first: 1
+        second: 2a890100
+      data:
+        first: 4
+        second: 0a1d0600
+      data:
+        first: 23
+        second: 3e192300
+      data:
+        first: 33
+        second: 7e5b3200
+    polySurface2316:
+      data:
+        first: 1
+        second: 28890100
+      data:
+        first: 4
+        second: 081d0600
+    polySurface2317:
+      data:
+        first: 1
+        second: 24890100
+      data:
+        first: 4
+        second: 041d0600
+    polySurface2318:
+      data:
+        first: 1
+        second: 20890100
+      data:
+        first: 4
+        second: 001d0600
+    polySurface2319:
+      data:
+        first: 1
+        second: 1c890100
+      data:
+        first: 4
+        second: fc1c0600
+    polySurface2321:
+      data:
+        first: 1
+        second: 18890100
+      data:
+        first: 4
+        second: f81c0600
+    polySurface2322:
+      data:
+        first: 1
+        second: 14890100
+      data:
+        first: 4
+        second: f41c0600
+    polySurface2323:
+      data:
+        first: 1
+        second: 10890100
+      data:
+        first: 4
+        second: f01c0600
+    polySurface2324:
+      data:
+        first: 1
+        second: 0c890100
+      data:
+        first: 4
+        second: ec1c0600
+    polySurface2325:
+      data:
+        first: 1
+        second: 08890100
+      data:
+        first: 4
+        second: e81c0600
+    polySurface2326:
+      data:
+        first: 1
+        second: 04890100
+      data:
+        first: 4
+        second: e41c0600
+    polySurface2327:
+      data:
+        first: 1
+        second: 00890100
+      data:
+        first: 4
+        second: e01c0600
+    polySurface2328:
+      data:
+        first: 1
+        second: fc880100
+      data:
+        first: 4
+        second: dc1c0600
+    polySurface2329:
+      data:
+        first: 1
+        second: f8880100
+      data:
+        first: 4
+        second: d81c0600
+    polySurface2330:
+      data:
+        first: 1
+        second: f4880100
+      data:
+        first: 4
+        second: d41c0600
+    polySurface2331:
+      data:
+        first: 1
+        second: f0880100
+      data:
+        first: 4
+        second: d01c0600
+    polySurface2332:
+      data:
+        first: 1
+        second: ec880100
+      data:
+        first: 4
+        second: cc1c0600
+    polySurface2333:
+      data:
+        first: 1
+        second: e8880100
+      data:
+        first: 4
+        second: c81c0600
+    polySurface2334:
+      data:
+        first: 1
+        second: e4880100
+      data:
+        first: 4
+        second: c41c0600
+    polySurface2335:
+      data:
+        first: 1
+        second: e0880100
+      data:
+        first: 4
+        second: c01c0600
+    polySurface2336:
+      data:
+        first: 1
+        second: dc880100
+      data:
+        first: 4
+        second: bc1c0600
+      data:
+        first: 23
+        second: 3c192300
+      data:
+        first: 33
+        second: 7c5b3200
+    polySurface2337:
+      data:
+        first: 1
+        second: da880100
+      data:
+        first: 4
+        second: ba1c0600
+    polySurface2338:
+      data:
+        first: 1
+        second: d6880100
+      data:
+        first: 4
+        second: b61c0600
+    polySurface2339:
+      data:
+        first: 1
+        second: d2880100
+      data:
+        first: 4
+        second: b21c0600
+    polySurface2340:
+      data:
+        first: 1
+        second: ce880100
+      data:
+        first: 4
+        second: ae1c0600
+    polySurface2341:
+      data:
+        first: 1
+        second: ca880100
+      data:
+        first: 4
+        second: aa1c0600
+      data:
+        first: 23
+        second: 3a192300
+      data:
+        first: 33
+        second: 7a5b3200
+    polySurface2342:
+      data:
+        first: 1
+        second: c8880100
+      data:
+        first: 4
+        second: a81c0600
+    polySurface2343:
+      data:
+        first: 1
+        second: c4880100
+      data:
+        first: 4
+        second: a41c0600
+    polySurface2344:
+      data:
+        first: 1
+        second: c0880100
+      data:
+        first: 4
+        second: a01c0600
+    polySurface2345:
+      data:
+        first: 1
+        second: bc880100
+      data:
+        first: 4
+        second: 9c1c0600
+    polySurface2347:
+      data:
+        first: 1
+        second: b8880100
+      data:
+        first: 4
+        second: 981c0600
+    polySurface2348:
+      data:
+        first: 1
+        second: b4880100
+      data:
+        first: 4
+        second: 941c0600
+    polySurface2349:
+      data:
+        first: 1
+        second: b0880100
+      data:
+        first: 4
+        second: 901c0600
+    polySurface2350:
+      data:
+        first: 1
+        second: ac880100
+      data:
+        first: 4
+        second: 8c1c0600
+    polySurface2351:
+      data:
+        first: 1
+        second: a8880100
+      data:
+        first: 4
+        second: 881c0600
+    polySurface2352:
+      data:
+        first: 1
+        second: a4880100
+      data:
+        first: 4
+        second: 841c0600
+    polySurface2353:
+      data:
+        first: 1
+        second: a0880100
+      data:
+        first: 4
+        second: 801c0600
+    polySurface2354:
+      data:
+        first: 1
+        second: 9c880100
+      data:
+        first: 4
+        second: 7c1c0600
+    polySurface2355:
+      data:
+        first: 1
+        second: 98880100
+      data:
+        first: 4
+        second: 781c0600
+    polySurface2356:
+      data:
+        first: 1
+        second: 94880100
+      data:
+        first: 4
+        second: 741c0600
+    polySurface2357:
+      data:
+        first: 1
+        second: 90880100
+      data:
+        first: 4
+        second: 701c0600
+    polySurface2358:
+      data:
+        first: 1
+        second: 8c880100
+      data:
+        first: 4
+        second: 6c1c0600
+    polySurface2360:
+      data:
+        first: 1
+        second: 88880100
+      data:
+        first: 4
+        second: 681c0600
+    polySurface2361:
+      data:
+        first: 1
+        second: 84880100
+      data:
+        first: 4
+        second: 641c0600
+    polySurface2362:
+      data:
+        first: 1
+        second: 80880100
+      data:
+        first: 4
+        second: 601c0600
+    polySurface2363:
+      data:
+        first: 1
+        second: 7c880100
+      data:
+        first: 4
+        second: 5c1c0600
+      data:
+        first: 23
+        second: 38192300
+      data:
+        first: 33
+        second: 785b3200
+    polySurface2364:
+      data:
+        first: 1
+        second: 7a880100
+      data:
+        first: 4
+        second: 5a1c0600
+    polySurface2365:
+      data:
+        first: 1
+        second: 76880100
+      data:
+        first: 4
+        second: 561c0600
+    polySurface2366:
+      data:
+        first: 1
+        second: 72880100
+      data:
+        first: 4
+        second: 521c0600
+    polySurface2367:
+      data:
+        first: 1
+        second: 6e880100
+      data:
+        first: 4
+        second: 4e1c0600
+    polySurface2368:
+      data:
+        first: 1
+        second: 6a880100
+      data:
+        first: 4
+        second: 4a1c0600
+      data:
+        first: 23
+        second: 36192300
+      data:
+        first: 33
+        second: 765b3200
+    polySurface2369:
+      data:
+        first: 1
+        second: 68880100
+      data:
+        first: 4
+        second: 481c0600
+    polySurface2370:
+      data:
+        first: 1
+        second: 64880100
+      data:
+        first: 4
+        second: 441c0600
+    polySurface2371:
+      data:
+        first: 1
+        second: 60880100
+      data:
+        first: 4
+        second: 401c0600
+    polySurface2372:
+      data:
+        first: 1
+        second: 5c880100
+      data:
+        first: 4
+        second: 3c1c0600
+    polySurface2373:
+      data:
+        first: 1
+        second: 58880100
+      data:
+        first: 4
+        second: 381c0600
+    polySurface2374:
+      data:
+        first: 1
+        second: 54880100
+      data:
+        first: 4
+        second: 341c0600
+    polySurface2375:
+      data:
+        first: 1
+        second: 50880100
+      data:
+        first: 4
+        second: 301c0600
+    polySurface2376:
+      data:
+        first: 1
+        second: 4c880100
+      data:
+        first: 4
+        second: 2c1c0600
+    polySurface2377:
+      data:
+        first: 1
+        second: 48880100
+      data:
+        first: 4
+        second: 281c0600
+    polySurface2378:
+      data:
+        first: 1
+        second: 44880100
+      data:
+        first: 4
+        second: 241c0600
+    polySurface2379:
+      data:
+        first: 1
+        second: 40880100
+      data:
+        first: 4
+        second: 201c0600
+    polySurface2380:
+      data:
+        first: 1
+        second: 3c880100
+      data:
+        first: 4
+        second: 1c1c0600
+    polySurface2381:
+      data:
+        first: 1
+        second: 38880100
+      data:
+        first: 4
+        second: 181c0600
+    polySurface2382:
+      data:
+        first: 1
+        second: 34880100
+      data:
+        first: 4
+        second: 141c0600
+    polySurface2383:
+      data:
+        first: 1
+        second: 30880100
+      data:
+        first: 4
+        second: 101c0600
+    polySurface2384:
+      data:
+        first: 1
+        second: 2c880100
+      data:
+        first: 4
+        second: 0c1c0600
+    polySurface2385:
+      data:
+        first: 1
+        second: 28880100
+      data:
+        first: 4
+        second: 081c0600
+    polySurface2386:
+      data:
+        first: 1
+        second: 24880100
+      data:
+        first: 4
+        second: 041c0600
+    polySurface2387:
+      data:
+        first: 1
+        second: 20880100
+      data:
+        first: 4
+        second: 001c0600
+    polySurface2388:
+      data:
+        first: 1
+        second: 1c880100
+      data:
+        first: 4
+        second: fc1b0600
+    polySurface2389:
+      data:
+        first: 1
+        second: 18880100
+      data:
+        first: 4
+        second: f81b0600
+      data:
+        first: 23
+        second: 34192300
+      data:
+        first: 33
+        second: 745b3200
+    polySurface2390:
+      data:
+        first: 1
+        second: 16880100
+      data:
+        first: 4
+        second: f61b0600
+    polySurface2391:
+      data:
+        first: 1
+        second: 12880100
+      data:
+        first: 4
+        second: f21b0600
+    polySurface2392:
+      data:
+        first: 1
+        second: 0e880100
+      data:
+        first: 4
+        second: ee1b0600
+    polySurface2393:
+      data:
+        first: 1
+        second: 0a880100
+      data:
+        first: 4
+        second: ea1b0600
+    polySurface2394:
+      data:
+        first: 1
+        second: 06880100
+      data:
+        first: 4
+        second: e61b0600
+      data:
+        first: 23
+        second: 32192300
+      data:
+        first: 33
+        second: 725b3200
+    polySurface2395:
+      data:
+        first: 1
+        second: 04880100
+      data:
+        first: 4
+        second: e41b0600
+    polySurface2396:
+      data:
+        first: 1
+        second: 00880100
+      data:
+        first: 4
+        second: e01b0600
+    polySurface2397:
+      data:
+        first: 1
+        second: fc870100
+      data:
+        first: 4
+        second: dc1b0600
+    polySurface2398:
+      data:
+        first: 1
+        second: f8870100
+      data:
+        first: 4
+        second: d81b0600
+    polySurface2399:
+      data:
+        first: 1
+        second: f4870100
+      data:
+        first: 4
+        second: d41b0600
+    polySurface2400:
+      data:
+        first: 1
+        second: f0870100
+      data:
+        first: 4
+        second: d01b0600
+    polySurface2401:
+      data:
+        first: 1
+        second: ec870100
+      data:
+        first: 4
+        second: cc1b0600
+    polySurface2402:
+      data:
+        first: 1
+        second: e8870100
+      data:
+        first: 4
+        second: c81b0600
+    polySurface2403:
+      data:
+        first: 1
+        second: e4870100
+      data:
+        first: 4
+        second: c41b0600
+    polySurface2404:
+      data:
+        first: 1
+        second: e0870100
+      data:
+        first: 4
+        second: c01b0600
+    polySurface2405:
+      data:
+        first: 1
+        second: dc870100
+      data:
+        first: 4
+        second: bc1b0600
+    polySurface2406:
+      data:
+        first: 1
+        second: d8870100
+      data:
+        first: 4
+        second: b81b0600
+    polySurface2407:
+      data:
+        first: 1
+        second: d4870100
+      data:
+        first: 4
+        second: b41b0600
+    polySurface2408:
+      data:
+        first: 1
+        second: d0870100
+      data:
+        first: 4
+        second: b01b0600
+    polySurface2409:
+      data:
+        first: 1
+        second: cc870100
+      data:
+        first: 4
+        second: ac1b0600
+    polySurface2410:
+      data:
+        first: 1
+        second: c8870100
+      data:
+        first: 4
+        second: a81b0600
+    polySurface2411:
+      data:
+        first: 1
+        second: c4870100
+      data:
+        first: 4
+        second: a41b0600
+    polySurface2412:
+      data:
+        first: 1
+        second: 5e870100
+      data:
+        first: 4
+        second: 3e1b0600
+    polySurface2413:
+      data:
+        first: 1
+        second: 388c0100
+      data:
+        first: 4
+        second: 18200600
+      data:
+        first: 23
+        second: 0c1a2300
+      data:
+        first: 33
+        second: 4c5c3200
+    polySurface2414:
+      data:
+        first: 1
+        second: 368c0100
+      data:
+        first: 4
+        second: 16200600
+      data:
+        first: 23
+        second: 0a1a2300
+      data:
+        first: 33
+        second: 4a5c3200
+    polySurface2415:
+      data:
+        first: 1
+        second: 348c0100
+      data:
+        first: 4
+        second: 14200600
+      data:
+        first: 23
+        second: 081a2300
+      data:
+        first: 33
+        second: 485c3200
+    polySurface2416:
+      data:
+        first: 1
+        second: 328c0100
+      data:
+        first: 4
+        second: 12200600
+      data:
+        first: 23
+        second: 061a2300
+      data:
+        first: 33
+        second: 465c3200
+    polySurface2417:
+      data:
+        first: 1
+        second: 308c0100
+      data:
+        first: 4
+        second: 10200600
+      data:
+        first: 23
+        second: 041a2300
+      data:
+        first: 33
+        second: 445c3200
+    polySurface2418:
+      data:
+        first: 1
+        second: 2e8c0100
+      data:
+        first: 4
+        second: 0e200600
+      data:
+        first: 23
+        second: 021a2300
+      data:
+        first: 33
+        second: 425c3200
+    polySurface2419:
+      data:
+        first: 1
+        second: 2c8c0100
+      data:
+        first: 4
+        second: 0c200600
+      data:
+        first: 23
+        second: 001a2300
+      data:
+        first: 33
+        second: 405c3200
+    polySurface2420:
+      data:
+        first: 1
+        second: 2a8c0100
+      data:
+        first: 4
+        second: 0a200600
+      data:
+        first: 23
+        second: fe192300
+      data:
+        first: 33
+        second: 3e5c3200
+    polySurface2421:
+      data:
+        first: 1
+        second: 288c0100
+      data:
+        first: 4
+        second: 08200600
+      data:
+        first: 23
+        second: fc192300
+      data:
+        first: 33
+        second: 3c5c3200
+    polySurface2422:
+      data:
+        first: 1
+        second: 268c0100
+      data:
+        first: 4
+        second: 06200600
+      data:
+        first: 23
+        second: fa192300
+      data:
+        first: 33
+        second: 3a5c3200
+    polySurface2423:
+      data:
+        first: 1
+        second: 248c0100
+      data:
+        first: 4
+        second: 04200600
+      data:
+        first: 23
+        second: f8192300
+      data:
+        first: 33
+        second: 385c3200
+    polySurface2424:
+      data:
+        first: 1
+        second: 228c0100
+      data:
+        first: 4
+        second: 02200600
+      data:
+        first: 23
+        second: f6192300
+      data:
+        first: 33
+        second: 365c3200
+    polySurface2425:
+      data:
+        first: 1
+        second: 208c0100
+      data:
+        first: 4
+        second: 00200600
+      data:
+        first: 23
+        second: f4192300
+      data:
+        first: 33
+        second: 345c3200
+    polySurface2426:
+      data:
+        first: 1
+        second: 1e8c0100
+      data:
+        first: 4
+        second: fe1f0600
+      data:
+        first: 23
+        second: f2192300
+      data:
+        first: 33
+        second: 325c3200
+    polySurface2427:
+      data:
+        first: 1
+        second: 1c8c0100
+      data:
+        first: 4
+        second: fc1f0600
+      data:
+        first: 23
+        second: f0192300
+      data:
+        first: 33
+        second: 305c3200
+    polySurface2428:
+      data:
+        first: 1
+        second: 1a8c0100
+      data:
+        first: 4
+        second: fa1f0600
+      data:
+        first: 23
+        second: ee192300
+      data:
+        first: 33
+        second: 2e5c3200
+    polySurface2429:
+      data:
+        first: 1
+        second: 188c0100
+      data:
+        first: 4
+        second: f81f0600
+      data:
+        first: 23
+        second: ec192300
+      data:
+        first: 33
+        second: 2c5c3200
+    polySurface2430:
+      data:
+        first: 1
+        second: 168c0100
+      data:
+        first: 4
+        second: f61f0600
+      data:
+        first: 23
+        second: ea192300
+      data:
+        first: 33
+        second: 2a5c3200
+    polySurface2431:
+      data:
+        first: 1
+        second: 148c0100
+      data:
+        first: 4
+        second: f41f0600
+      data:
+        first: 23
+        second: e8192300
+      data:
+        first: 33
+        second: 285c3200
+    polySurface2432:
+      data:
+        first: 1
+        second: 128c0100
+      data:
+        first: 4
+        second: f21f0600
+      data:
+        first: 23
+        second: e6192300
+      data:
+        first: 33
+        second: 265c3200
+    polySurface2433:
+      data:
+        first: 1
+        second: 108c0100
+      data:
+        first: 4
+        second: f01f0600
+      data:
+        first: 23
+        second: e4192300
+      data:
+        first: 33
+        second: 245c3200
+    polySurface2434:
+      data:
+        first: 1
+        second: 0e8c0100
+      data:
+        first: 4
+        second: ee1f0600
+      data:
+        first: 23
+        second: e2192300
+      data:
+        first: 33
+        second: 225c3200
+    polySurface2435:
+      data:
+        first: 1
+        second: 0c8c0100
+      data:
+        first: 4
+        second: ec1f0600
+      data:
+        first: 23
+        second: e0192300
+      data:
+        first: 33
+        second: 205c3200
+    polySurface2436:
+      data:
+        first: 1
+        second: 0a8c0100
+      data:
+        first: 4
+        second: ea1f0600
+      data:
+        first: 23
+        second: de192300
+      data:
+        first: 33
+        second: 1e5c3200
+    polySurface2437:
+      data:
+        first: 1
+        second: 088c0100
+      data:
+        first: 4
+        second: e81f0600
+      data:
+        first: 23
+        second: dc192300
+      data:
+        first: 33
+        second: 1c5c3200
+    polySurface2438:
+      data:
+        first: 1
+        second: 068c0100
+      data:
+        first: 4
+        second: e61f0600
+      data:
+        first: 23
+        second: da192300
+      data:
+        first: 33
+        second: 1a5c3200
+    polySurface2439:
+      data:
+        first: 1
+        second: 048c0100
+      data:
+        first: 4
+        second: e41f0600
+      data:
+        first: 23
+        second: d8192300
+      data:
+        first: 33
+        second: 185c3200
+    polySurface2440:
+      data:
+        first: 1
+        second: 028c0100
+      data:
+        first: 4
+        second: e21f0600
+      data:
+        first: 23
+        second: d6192300
+      data:
+        first: 33
+        second: 165c3200
+    polySurface2441:
+      data:
+        first: 1
+        second: 008c0100
+      data:
+        first: 4
+        second: e01f0600
+      data:
+        first: 23
+        second: d4192300
+      data:
+        first: 33
+        second: 145c3200
+    polySurface2442:
+      data:
+        first: 1
+        second: fe8b0100
+      data:
+        first: 4
+        second: de1f0600
+      data:
+        first: 23
+        second: d2192300
+      data:
+        first: 33
+        second: 125c3200
+    polySurface2443:
+      data:
+        first: 1
+        second: fc8b0100
+      data:
+        first: 4
+        second: dc1f0600
+      data:
+        first: 23
+        second: d0192300
+      data:
+        first: 33
+        second: 105c3200
+    polySurface2444:
+      data:
+        first: 1
+        second: fa8b0100
+      data:
+        first: 4
+        second: da1f0600
+      data:
+        first: 23
+        second: ce192300
+      data:
+        first: 33
+        second: 0e5c3200
+    polySurface2445:
+      data:
+        first: 1
+        second: f88b0100
+      data:
+        first: 4
+        second: d81f0600
+      data:
+        first: 23
+        second: cc192300
+      data:
+        first: 33
+        second: 0c5c3200
+    polySurface2446:
+      data:
+        first: 1
+        second: f68b0100
+      data:
+        first: 4
+        second: d61f0600
+      data:
+        first: 23
+        second: ca192300
+      data:
+        first: 33
+        second: 0a5c3200
+    polySurface2447:
+      data:
+        first: 1
+        second: f48b0100
+      data:
+        first: 4
+        second: d41f0600
+      data:
+        first: 23
+        second: c8192300
+      data:
+        first: 33
+        second: 085c3200
+    polySurface2448:
+      data:
+        first: 1
+        second: f28b0100
+      data:
+        first: 4
+        second: d21f0600
+      data:
+        first: 23
+        second: c6192300
+      data:
+        first: 33
+        second: 065c3200
+    polySurface2449:
+      data:
+        first: 1
+        second: f08b0100
+      data:
+        first: 4
+        second: d01f0600
+      data:
+        first: 23
+        second: c4192300
+      data:
+        first: 33
+        second: 045c3200
+    polySurface2450:
+      data:
+        first: 1
+        second: ee8b0100
+      data:
+        first: 4
+        second: ce1f0600
+      data:
+        first: 23
+        second: c2192300
+      data:
+        first: 33
+        second: 025c3200
+    polySurface2451:
+      data:
+        first: 1
+        second: ec8b0100
+      data:
+        first: 4
+        second: cc1f0600
+      data:
+        first: 23
+        second: c0192300
+      data:
+        first: 33
+        second: 005c3200
+    polySurface2452:
+      data:
+        first: 1
+        second: ea8b0100
+      data:
+        first: 4
+        second: ca1f0600
+      data:
+        first: 23
+        second: be192300
+      data:
+        first: 33
+        second: fe5b3200
+    polySurface2453:
+      data:
+        first: 1
+        second: e88b0100
+      data:
+        first: 4
+        second: c81f0600
+      data:
+        first: 23
+        second: bc192300
+      data:
+        first: 33
+        second: fc5b3200
+    polySurface2454:
+      data:
+        first: 1
+        second: e68b0100
+      data:
+        first: 4
+        second: c61f0600
+      data:
+        first: 23
+        second: ba192300
+      data:
+        first: 33
+        second: fa5b3200
+    polySurface2455:
+      data:
+        first: 1
+        second: e48b0100
+      data:
+        first: 4
+        second: c41f0600
+      data:
+        first: 23
+        second: b8192300
+      data:
+        first: 33
+        second: f85b3200
+    polySurface2456:
+      data:
+        first: 1
+        second: e28b0100
+      data:
+        first: 4
+        second: c21f0600
+      data:
+        first: 23
+        second: b6192300
+      data:
+        first: 33
+        second: f65b3200
+    polySurface2457:
+      data:
+        first: 1
+        second: e08b0100
+      data:
+        first: 4
+        second: c01f0600
+      data:
+        first: 23
+        second: b4192300
+      data:
+        first: 33
+        second: f45b3200
+    polySurface2458:
+      data:
+        first: 1
+        second: de8b0100
+      data:
+        first: 4
+        second: be1f0600
+      data:
+        first: 23
+        second: b2192300
+      data:
+        first: 33
+        second: f25b3200
+    polySurface2459:
+      data:
+        first: 1
+        second: dc8b0100
+      data:
+        first: 4
+        second: bc1f0600
+      data:
+        first: 23
+        second: b0192300
+      data:
+        first: 33
+        second: f05b3200
+    polySurface2460:
+      data:
+        first: 1
+        second: da8b0100
+      data:
+        first: 4
+        second: ba1f0600
+      data:
+        first: 23
+        second: ae192300
+      data:
+        first: 33
+        second: ee5b3200
+    polySurface2461:
+      data:
+        first: 1
+        second: d88b0100
+      data:
+        first: 4
+        second: b81f0600
+      data:
+        first: 23
+        second: ac192300
+      data:
+        first: 33
+        second: ec5b3200
+    polySurface2462:
+      data:
+        first: 1
+        second: d68b0100
+      data:
+        first: 4
+        second: b61f0600
+      data:
+        first: 23
+        second: aa192300
+      data:
+        first: 33
+        second: ea5b3200
+    polySurface2463:
+      data:
+        first: 1
+        second: d48b0100
+      data:
+        first: 4
+        second: b41f0600
+      data:
+        first: 23
+        second: a8192300
+      data:
+        first: 33
+        second: e85b3200
+    polySurface2464:
+      data:
+        first: 1
+        second: d28b0100
+      data:
+        first: 4
+        second: b21f0600
+      data:
+        first: 23
+        second: a6192300
+      data:
+        first: 33
+        second: e65b3200
+    polySurface2465:
+      data:
+        first: 1
+        second: d08b0100
+      data:
+        first: 4
+        second: b01f0600
+      data:
+        first: 23
+        second: a4192300
+      data:
+        first: 33
+        second: e45b3200
+    polySurface2466:
+      data:
+        first: 1
+        second: ce8b0100
+      data:
+        first: 4
+        second: ae1f0600
+      data:
+        first: 23
+        second: a2192300
+      data:
+        first: 33
+        second: e25b3200
+    polySurface2467:
+      data:
+        first: 1
+        second: cc8b0100
+      data:
+        first: 4
+        second: ac1f0600
+      data:
+        first: 23
+        second: a0192300
+      data:
+        first: 33
+        second: e05b3200
+    polySurface2468:
+      data:
+        first: 1
+        second: ca8b0100
+      data:
+        first: 4
+        second: aa1f0600
+      data:
+        first: 23
+        second: 9e192300
+      data:
+        first: 33
+        second: de5b3200
+    polySurface2469:
+      data:
+        first: 1
+        second: c88b0100
+      data:
+        first: 4
+        second: a81f0600
+      data:
+        first: 23
+        second: 9c192300
+      data:
+        first: 33
+        second: dc5b3200
+    polySurface2470:
+      data:
+        first: 1
+        second: c68b0100
+      data:
+        first: 4
+        second: a61f0600
+      data:
+        first: 23
+        second: 9a192300
+      data:
+        first: 33
+        second: da5b3200
+    polySurface2471:
+      data:
+        first: 1
+        second: c48b0100
+      data:
+        first: 4
+        second: a41f0600
+      data:
+        first: 23
+        second: 98192300
+      data:
+        first: 33
+        second: d85b3200
+    polySurface2472:
+      data:
+        first: 1
+        second: c28b0100
+      data:
+        first: 4
+        second: a21f0600
+      data:
+        first: 23
+        second: 96192300
+      data:
+        first: 33
+        second: d65b3200
+    polySurface2473:
+      data:
+        first: 1
+        second: c08b0100
+      data:
+        first: 4
+        second: a01f0600
+      data:
+        first: 23
+        second: 94192300
+      data:
+        first: 33
+        second: d45b3200
+    polySurface2474:
+      data:
+        first: 1
+        second: be8b0100
+      data:
+        first: 4
+        second: 9e1f0600
+      data:
+        first: 23
+        second: 92192300
+      data:
+        first: 33
+        second: d25b3200
+    polySurface2475:
+      data:
+        first: 1
+        second: bc8b0100
+      data:
+        first: 4
+        second: 9c1f0600
+      data:
+        first: 23
+        second: 90192300
+      data:
+        first: 33
+        second: d05b3200
+    polySurface2476:
+      data:
+        first: 1
+        second: ba8b0100
+      data:
+        first: 4
+        second: 9a1f0600
+      data:
+        first: 23
+        second: 8e192300
+      data:
+        first: 33
+        second: ce5b3200
+    polySurface2477:
+      data:
+        first: 1
+        second: b88b0100
+      data:
+        first: 4
+        second: 981f0600
+      data:
+        first: 23
+        second: 8c192300
+      data:
+        first: 33
+        second: cc5b3200
+    polySurface2478:
+      data:
+        first: 1
+        second: b68b0100
+      data:
+        first: 4
+        second: 961f0600
+      data:
+        first: 23
+        second: 8a192300
+      data:
+        first: 33
+        second: ca5b3200
+    polySurface2479:
+      data:
+        first: 1
+        second: 5c870100
+      data:
+        first: 4
+        second: 3c1b0600
+      data:
+        first: 23
+        second: 18192300
+      data:
+        first: 33
+        second: 585b3200
+    polySurface2480:
+      data:
+        first: 1
+        second: 5a870100
+      data:
+        first: 4
+        second: 3a1b0600
+      data:
+        first: 23
+        second: 16192300
+      data:
+        first: 33
+        second: 565b3200
+    polySurface2481:
+      data:
+        first: 1
+        second: 58870100
+      data:
+        first: 4
+        second: 381b0600
+      data:
+        first: 23
+        second: 14192300
+      data:
+        first: 33
+        second: 545b3200
+    polySurface2482:
+      data:
+        first: 1
+        second: 56870100
+      data:
+        first: 4
+        second: 361b0600
+      data:
+        first: 23
+        second: 12192300
+      data:
+        first: 33
+        second: 525b3200
+    polySurface2483:
+      data:
+        first: 1
+        second: 54870100
+      data:
+        first: 4
+        second: 341b0600
+      data:
+        first: 23
+        second: 10192300
+      data:
+        first: 33
+        second: 505b3200
+    polySurface2484:
+      data:
+        first: 1
+        second: 52870100
+      data:
+        first: 4
+        second: 321b0600
+      data:
+        first: 23
+        second: 0e192300
+      data:
+        first: 33
+        second: 4e5b3200
+    polySurface2485:
+      data:
+        first: 1
+        second: 50870100
+      data:
+        first: 4
+        second: 301b0600
+      data:
+        first: 23
+        second: 0c192300
+      data:
+        first: 33
+        second: 4c5b3200
+    polySurface2486:
+      data:
+        first: 1
+        second: 4e870100
+      data:
+        first: 4
+        second: 2e1b0600
+      data:
+        first: 23
+        second: 0a192300
+      data:
+        first: 33
+        second: 4a5b3200
+    polySurface2487:
+      data:
+        first: 1
+        second: 4c870100
+      data:
+        first: 4
+        second: 2c1b0600
+      data:
+        first: 23
+        second: 08192300
+      data:
+        first: 33
+        second: 485b3200
+    polySurface2488:
+      data:
+        first: 1
+        second: 4a870100
+      data:
+        first: 4
+        second: 2a1b0600
+      data:
+        first: 23
+        second: 06192300
+      data:
+        first: 33
+        second: 465b3200
+    polySurface2489:
+      data:
+        first: 1
+        second: 48870100
+      data:
+        first: 4
+        second: 281b0600
+      data:
+        first: 23
+        second: 04192300
+      data:
+        first: 33
+        second: 445b3200
+    polySurface2492:
+      data:
+        first: 1
+        second: 46870100
+      data:
+        first: 4
+        second: 261b0600
+      data:
+        first: 23
+        second: 02192300
+      data:
+        first: 33
+        second: 425b3200
+    polySurface2493:
+      data:
+        first: 1
+        second: 44870100
+      data:
+        first: 4
+        second: 241b0600
+      data:
+        first: 23
+        second: 00192300
+      data:
+        first: 33
+        second: 405b3200
+    polySurface2494:
+      data:
+        first: 1
+        second: 42870100
+      data:
+        first: 4
+        second: 221b0600
+      data:
+        first: 23
+        second: fe182300
+      data:
+        first: 33
+        second: 3e5b3200
+    polySurface2495:
+      data:
+        first: 1
+        second: 40870100
+      data:
+        first: 4
+        second: 201b0600
+      data:
+        first: 23
+        second: fc182300
+      data:
+        first: 33
+        second: 3c5b3200
+    polySurface2496:
+      data:
+        first: 1
+        second: 3e870100
+      data:
+        first: 4
+        second: 1e1b0600
+      data:
+        first: 23
+        second: fa182300
+      data:
+        first: 33
+        second: 3a5b3200
+    polySurface2497:
+      data:
+        first: 1
+        second: 3c870100
+      data:
+        first: 4
+        second: 1c1b0600
+      data:
+        first: 23
+        second: f8182300
+      data:
+        first: 33
+        second: 385b3200
+    polySurface2498:
+      data:
+        first: 1
+        second: 3a870100
+      data:
+        first: 4
+        second: 1a1b0600
+      data:
+        first: 23
+        second: f6182300
+      data:
+        first: 33
+        second: 365b3200
+    polySurface2499:
+      data:
+        first: 1
+        second: 38870100
+      data:
+        first: 4
+        second: 181b0600
+      data:
+        first: 23
+        second: f4182300
+      data:
+        first: 33
+        second: 345b3200
+    polySurface2500:
+      data:
+        first: 1
+        second: 36870100
+      data:
+        first: 4
+        second: 161b0600
+      data:
+        first: 23
+        second: f2182300
+      data:
+        first: 33
+        second: 325b3200
+    polySurface2502:
+      data:
+        first: 1
+        second: 34870100
+      data:
+        first: 4
+        second: 141b0600
+      data:
+        first: 23
+        second: f0182300
+      data:
+        first: 33
+        second: 305b3200
+    polySurface2503:
+      data:
+        first: 1
+        second: 32870100
+      data:
+        first: 4
+        second: 121b0600
+      data:
+        first: 23
+        second: ee182300
+      data:
+        first: 33
+        second: 2e5b3200
+    polySurface2504:
+      data:
+        first: 1
+        second: 30870100
+      data:
+        first: 4
+        second: 101b0600
+      data:
+        first: 23
+        second: ec182300
+      data:
+        first: 33
+        second: 2c5b3200
+    polySurface2505:
+      data:
+        first: 1
+        second: 2e870100
+      data:
+        first: 4
+        second: 0e1b0600
+      data:
+        first: 23
+        second: ea182300
+      data:
+        first: 33
+        second: 2a5b3200
+    polySurface2506:
+      data:
+        first: 1
+        second: 2c870100
+      data:
+        first: 4
+        second: 0c1b0600
+      data:
+        first: 23
+        second: e8182300
+      data:
+        first: 33
+        second: 285b3200
+    polySurface2507:
+      data:
+        first: 1
+        second: 2a870100
+      data:
+        first: 4
+        second: 0a1b0600
+      data:
+        first: 23
+        second: e6182300
+      data:
+        first: 33
+        second: 265b3200
+    polySurface2508:
+      data:
+        first: 1
+        second: 28870100
+      data:
+        first: 4
+        second: 081b0600
+      data:
+        first: 23
+        second: e4182300
+      data:
+        first: 33
+        second: 245b3200
+    polySurface2509:
+      data:
+        first: 1
+        second: 26870100
+      data:
+        first: 4
+        second: 061b0600
+      data:
+        first: 23
+        second: e2182300
+      data:
+        first: 33
+        second: 225b3200
+    polySurface2510:
+      data:
+        first: 1
+        second: 24870100
+      data:
+        first: 4
+        second: 041b0600
+      data:
+        first: 23
+        second: e0182300
+      data:
+        first: 33
+        second: 205b3200
+    polySurface2511:
+      data:
+        first: 1
+        second: 22870100
+      data:
+        first: 4
+        second: 021b0600
+      data:
+        first: 23
+        second: de182300
+      data:
+        first: 33
+        second: 1e5b3200
+    polySurface2512:
+      data:
+        first: 1
+        second: 20870100
+      data:
+        first: 4
+        second: 001b0600
+      data:
+        first: 23
+        second: dc182300
+      data:
+        first: 33
+        second: 1c5b3200
+    polySurface2513:
+      data:
+        first: 1
+        second: 1e870100
+      data:
+        first: 4
+        second: fe1a0600
+      data:
+        first: 23
+        second: da182300
+      data:
+        first: 33
+        second: 1a5b3200
+    polySurface2515:
+      data:
+        first: 1
+        second: 1c870100
+      data:
+        first: 4
+        second: fc1a0600
+      data:
+        first: 23
+        second: d8182300
+      data:
+        first: 33
+        second: 185b3200
+    polySurface2516:
+      data:
+        first: 1
+        second: 1a870100
+      data:
+        first: 4
+        second: fa1a0600
+      data:
+        first: 23
+        second: d6182300
+      data:
+        first: 33
+        second: 165b3200
+    polySurface2517:
+      data:
+        first: 1
+        second: 18870100
+      data:
+        first: 4
+        second: f81a0600
+      data:
+        first: 23
+        second: d4182300
+      data:
+        first: 33
+        second: 145b3200
+    polySurface2518:
+      data:
+        first: 1
+        second: 16870100
+      data:
+        first: 4
+        second: f61a0600
+      data:
+        first: 23
+        second: d2182300
+      data:
+        first: 33
+        second: 125b3200
+    polySurface2519:
+      data:
+        first: 1
+        second: 14870100
+      data:
+        first: 4
+        second: f41a0600
+      data:
+        first: 23
+        second: d0182300
+      data:
+        first: 33
+        second: 105b3200
+    polySurface2520:
+      data:
+        first: 1
+        second: 12870100
+      data:
+        first: 4
+        second: f21a0600
+      data:
+        first: 23
+        second: ce182300
+      data:
+        first: 33
+        second: 0e5b3200
+    polySurface2521:
+      data:
+        first: 1
+        second: 10870100
+      data:
+        first: 4
+        second: f01a0600
+      data:
+        first: 23
+        second: cc182300
+      data:
+        first: 33
+        second: 0c5b3200
+    polySurface2522:
+      data:
+        first: 1
+        second: 0e870100
+      data:
+        first: 4
+        second: ee1a0600
+      data:
+        first: 23
+        second: ca182300
+      data:
+        first: 33
+        second: 0a5b3200
+    polySurface2523:
+      data:
+        first: 1
+        second: 0c870100
+      data:
+        first: 4
+        second: ec1a0600
+      data:
+        first: 23
+        second: c8182300
+      data:
+        first: 33
+        second: 085b3200
+    polySurface2525:
+      data:
+        first: 1
+        second: 0a870100
+      data:
+        first: 4
+        second: ea1a0600
+      data:
+        first: 23
+        second: c6182300
+      data:
+        first: 33
+        second: 065b3200
+    polySurface2526:
+      data:
+        first: 1
+        second: 08870100
+      data:
+        first: 4
+        second: e81a0600
+      data:
+        first: 23
+        second: c4182300
+      data:
+        first: 33
+        second: 045b3200
+    polySurface2527:
+      data:
+        first: 1
+        second: 06870100
+      data:
+        first: 4
+        second: e61a0600
+      data:
+        first: 23
+        second: c2182300
+      data:
+        first: 33
+        second: 025b3200
+    polySurface2528:
+      data:
+        first: 1
+        second: 04870100
+      data:
+        first: 4
+        second: e41a0600
+      data:
+        first: 23
+        second: c0182300
+      data:
+        first: 33
+        second: 005b3200
+    polySurface2529:
+      data:
+        first: 1
+        second: 02870100
+      data:
+        first: 4
+        second: e21a0600
+      data:
+        first: 23
+        second: be182300
+      data:
+        first: 33
+        second: fe5a3200
+    polySurface2530:
+      data:
+        first: 1
+        second: 00870100
+      data:
+        first: 4
+        second: e01a0600
+      data:
+        first: 23
+        second: bc182300
+      data:
+        first: 33
+        second: fc5a3200
+    polySurface2531:
+      data:
+        first: 1
+        second: fe860100
+      data:
+        first: 4
+        second: de1a0600
+      data:
+        first: 23
+        second: ba182300
+      data:
+        first: 33
+        second: fa5a3200
+    polySurface2532:
+      data:
+        first: 1
+        second: fc860100
+      data:
+        first: 4
+        second: dc1a0600
+      data:
+        first: 23
+        second: b8182300
+      data:
+        first: 33
+        second: f85a3200
+    polySurface2533:
+      data:
+        first: 1
+        second: fa860100
+      data:
+        first: 4
+        second: da1a0600
+      data:
+        first: 23
+        second: b6182300
+      data:
+        first: 33
+        second: f65a3200
+    polySurface2534:
+      data:
+        first: 1
+        second: f8860100
+      data:
+        first: 4
+        second: d81a0600
+      data:
+        first: 23
+        second: b4182300
+      data:
+        first: 33
+        second: f45a3200
+    polySurface2535:
+      data:
+        first: 1
+        second: f6860100
+      data:
+        first: 4
+        second: d61a0600
+      data:
+        first: 23
+        second: b2182300
+      data:
+        first: 33
+        second: f25a3200
+    polySurface2538:
+      data:
+        first: 1
+        second: f4860100
+      data:
+        first: 4
+        second: d41a0600
+      data:
+        first: 23
+        second: b0182300
+      data:
+        first: 33
+        second: f05a3200
+    polySurface2539:
+      data:
+        first: 1
+        second: f2860100
+      data:
+        first: 4
+        second: d21a0600
+      data:
+        first: 23
+        second: ae182300
+      data:
+        first: 33
+        second: ee5a3200
+    polySurface2540:
+      data:
+        first: 1
+        second: f0860100
+      data:
+        first: 4
+        second: d01a0600
+      data:
+        first: 23
+        second: ac182300
+      data:
+        first: 33
+        second: ec5a3200
+    polySurface2541:
+      data:
+        first: 1
+        second: ee860100
+      data:
+        first: 4
+        second: ce1a0600
+      data:
+        first: 23
+        second: aa182300
+      data:
+        first: 33
+        second: ea5a3200
+    polySurface2542:
+      data:
+        first: 1
+        second: ec860100
+      data:
+        first: 4
+        second: cc1a0600
+      data:
+        first: 23
+        second: a8182300
+      data:
+        first: 33
+        second: e85a3200
+    polySurface2543:
+      data:
+        first: 1
+        second: ea860100
+      data:
+        first: 4
+        second: ca1a0600
+      data:
+        first: 23
+        second: a6182300
+      data:
+        first: 33
+        second: e65a3200
+    polySurface2544:
+      data:
+        first: 1
+        second: e8860100
+      data:
+        first: 4
+        second: c81a0600
+      data:
+        first: 23
+        second: a4182300
+      data:
+        first: 33
+        second: e45a3200
+    polySurface2545:
+      data:
+        first: 1
+        second: e6860100
+      data:
+        first: 4
+        second: c61a0600
+      data:
+        first: 23
+        second: a2182300
+      data:
+        first: 33
+        second: e25a3200
+    polySurface2546:
+      data:
+        first: 1
+        second: e4860100
+      data:
+        first: 4
+        second: c41a0600
+      data:
+        first: 23
+        second: a0182300
+      data:
+        first: 33
+        second: e05a3200
+    polySurface2547:
+      data:
+        first: 1
+        second: e2860100
+      data:
+        first: 4
+        second: c21a0600
+      data:
+        first: 23
+        second: 9e182300
+      data:
+        first: 33
+        second: de5a3200
+    polySurface2548:
+      data:
+        first: 1
+        second: e0860100
+      data:
+        first: 4
+        second: c01a0600
+      data:
+        first: 23
+        second: 9c182300
+      data:
+        first: 33
+        second: dc5a3200
+    polySurface2549:
+      data:
+        first: 1
+        second: de860100
+      data:
+        first: 4
+        second: be1a0600
+      data:
+        first: 23
+        second: 9a182300
+      data:
+        first: 33
+        second: da5a3200
+    polySurface2550:
+      data:
+        first: 1
+        second: dc860100
+      data:
+        first: 4
+        second: bc1a0600
+      data:
+        first: 23
+        second: 98182300
+      data:
+        first: 33
+        second: d85a3200
+    polySurface2551:
+      data:
+        first: 1
+        second: da860100
+      data:
+        first: 4
+        second: ba1a0600
+      data:
+        first: 23
+        second: 96182300
+      data:
+        first: 33
+        second: d65a3200
+    polySurface2552:
+      data:
+        first: 1
+        second: d8860100
+      data:
+        first: 4
+        second: b81a0600
+      data:
+        first: 23
+        second: 94182300
+      data:
+        first: 33
+        second: d45a3200
+    polySurface2553:
+      data:
+        first: 1
+        second: d6860100
+      data:
+        first: 4
+        second: b61a0600
+      data:
+        first: 23
+        second: 92182300
+      data:
+        first: 33
+        second: d25a3200
+    polySurface2554:
+      data:
+        first: 1
+        second: d4860100
+      data:
+        first: 4
+        second: b41a0600
+      data:
+        first: 23
+        second: 90182300
+      data:
+        first: 33
+        second: d05a3200
+    polySurface2555:
+      data:
+        first: 1
+        second: d2860100
+      data:
+        first: 4
+        second: b21a0600
+      data:
+        first: 23
+        second: 8e182300
+      data:
+        first: 33
+        second: ce5a3200
+    polySurface2556:
+      data:
+        first: 1
+        second: d0860100
+      data:
+        first: 4
+        second: b01a0600
+      data:
+        first: 23
+        second: 8c182300
+      data:
+        first: 33
+        second: cc5a3200
+    polySurface2557:
+      data:
+        first: 1
+        second: ce860100
+      data:
+        first: 4
+        second: ae1a0600
+      data:
+        first: 23
+        second: 8a182300
+      data:
+        first: 33
+        second: ca5a3200
+    polySurface2558:
+      data:
+        first: 1
+        second: cc860100
+      data:
+        first: 4
+        second: ac1a0600
+      data:
+        first: 23
+        second: 88182300
+      data:
+        first: 33
+        second: c85a3200
+    polySurface2559:
+      data:
+        first: 1
+        second: ca860100
+      data:
+        first: 4
+        second: aa1a0600
+      data:
+        first: 23
+        second: 86182300
+      data:
+        first: 33
+        second: c65a3200
+    polySurface2560:
+      data:
+        first: 1
+        second: c8860100
+      data:
+        first: 4
+        second: a81a0600
+      data:
+        first: 23
+        second: 84182300
+      data:
+        first: 33
+        second: c45a3200
+    polySurface2562:
+      data:
+        first: 1
+        second: c6860100
+      data:
+        first: 4
+        second: a61a0600
+      data:
+        first: 23
+        second: 82182300
+      data:
+        first: 33
+        second: c25a3200
+    polySurface2563:
+      data:
+        first: 1
+        second: c4860100
+      data:
+        first: 4
+        second: a41a0600
+      data:
+        first: 23
+        second: 80182300
+      data:
+        first: 33
+        second: c05a3200
+    polySurface2564:
+      data:
+        first: 1
+        second: c2860100
+      data:
+        first: 4
+        second: a21a0600
+      data:
+        first: 23
+        second: 7e182300
+      data:
+        first: 33
+        second: be5a3200
+    polySurface2565:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600
+      data:
+        first: 23
+        second: 7c182300
+      data:
+        first: 33
+        second: bc5a3200
+    polySurface2566:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+      data:
+        first: 23
+        second: 7a182300
+      data:
+        first: 33
+        second: ba5a3200
+    polySurface2567:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+      data:
+        first: 23
+        second: 78182300
+      data:
+        first: 33
+        second: b85a3200
+    polySurface2568:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+      data:
+        first: 23
+        second: 76182300
+      data:
+        first: 33
+        second: b65a3200
+    polySurface2569:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+      data:
+        first: 23
+        second: 74182300
+      data:
+        first: 33
+        second: b45a3200
+    polySurface2570:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+      data:
+        first: 23
+        second: 72182300
+      data:
+        first: 33
+        second: b25a3200
+    polySurface2571:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+      data:
+        first: 23
+        second: 70182300
+      data:
+        first: 33
+        second: b05a3200
+    polySurface2572:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+      data:
+        first: 23
+        second: 6e182300
+      data:
+        first: 33
+        second: ae5a3200
+    polySurface2573:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+      data:
+        first: 23
+        second: 6c182300
+      data:
+        first: 33
+        second: ac5a3200
+    polySurface2574:
+      data:
+        first: 1
+        second: 648c0100
+      data:
+        first: 4
+        second: 44200600
+      data:
+        first: 23
+        second: 301a2300
+      data:
+        first: 33
+        second: 705c3200
+    polySurface2575:
+      data:
+        first: 1
+        second: 628c0100
+      data:
+        first: 4
+        second: 42200600
+      data:
+        first: 23
+        second: 2e1a2300
+      data:
+        first: 33
+        second: 6e5c3200
+    polySurface2576:
+      data:
+        first: 1
+        second: 608c0100
+      data:
+        first: 4
+        second: 40200600
+      data:
+        first: 23
+        second: 2c1a2300
+      data:
+        first: 33
+        second: 6c5c3200
+    polySurface2577:
+      data:
+        first: 1
+        second: 5e8c0100
+      data:
+        first: 4
+        second: 3e200600
+      data:
+        first: 23
+        second: 2a1a2300
+      data:
+        first: 33
+        second: 6a5c3200
+    polySurface2578:
+      data:
+        first: 1
+        second: 5c8c0100
+      data:
+        first: 4
+        second: 3c200600
+      data:
+        first: 23
+        second: 281a2300
+      data:
+        first: 33
+        second: 685c3200
+    polySurface2579:
+      data:
+        first: 1
+        second: 5a8c0100
+      data:
+        first: 4
+        second: 3a200600
+      data:
+        first: 23
+        second: 261a2300
+      data:
+        first: 33
+        second: 665c3200
+    polySurface2580:
+      data:
+        first: 1
+        second: 588c0100
+      data:
+        first: 4
+        second: 38200600
+      data:
+        first: 23
+        second: 241a2300
+      data:
+        first: 33
+        second: 645c3200
+    polySurface2581:
+      data:
+        first: 1
+        second: 568c0100
+      data:
+        first: 4
+        second: 36200600
+      data:
+        first: 23
+        second: 221a2300
+      data:
+        first: 33
+        second: 625c3200
+    polySurface2582:
+      data:
+        first: 1
+        second: 548c0100
+      data:
+        first: 4
+        second: 34200600
+      data:
+        first: 23
+        second: 201a2300
+      data:
+        first: 33
+        second: 605c3200
+    polySurface2583:
+      data:
+        first: 1
+        second: 528c0100
+      data:
+        first: 4
+        second: 32200600
+      data:
+        first: 23
+        second: 1e1a2300
+      data:
+        first: 33
+        second: 5e5c3200
+    polySurface2584:
+      data:
+        first: 1
+        second: 508c0100
+      data:
+        first: 4
+        second: 30200600
+      data:
+        first: 23
+        second: 1c1a2300
+      data:
+        first: 33
+        second: 5c5c3200
+    polySurface2585:
+      data:
+        first: 1
+        second: 4e8c0100
+      data:
+        first: 4
+        second: 2e200600
+      data:
+        first: 23
+        second: 1a1a2300
+      data:
+        first: 33
+        second: 5a5c3200
+    polySurface2586:
+      data:
+        first: 1
+        second: 4c8c0100
+      data:
+        first: 4
+        second: 2c200600
+      data:
+        first: 23
+        second: 181a2300
+      data:
+        first: 33
+        second: 585c3200
+    polySurface2587:
+      data:
+        first: 1
+        second: 4a8c0100
+      data:
+        first: 4
+        second: 2a200600
+      data:
+        first: 23
+        second: 161a2300
+      data:
+        first: 33
+        second: 565c3200
+    polySurface2588:
+      data:
+        first: 1
+        second: 488c0100
+      data:
+        first: 4
+        second: 28200600
+      data:
+        first: 23
+        second: 141a2300
+      data:
+        first: 33
+        second: 545c3200
+    polySurface2589:
+      data:
+        first: 1
+        second: 468c0100
+      data:
+        first: 4
+        second: 26200600
+      data:
+        first: 23
+        second: 121a2300
+      data:
+        first: 33
+        second: 525c3200
+    polySurface2590:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    polySurface980:
+      data:
+        first: 1
+        second: 828c0100
+      data:
+        first: 4
+        second: 62200600
+      data:
+        first: 23
+        second: 401a2300
+      data:
+        first: 33
+        second: 805c3200
+    polySurface981:
+      data:
+        first: 1
+        second: 808c0100
+      data:
+        first: 4
+        second: 60200600
+      data:
+        first: 23
+        second: 3e1a2300
+      data:
+        first: 33
+        second: 7e5c3200
+    transform1:
+      data:
+        first: 1
+        second: 6c890100
+      data:
+        first: 4
+        second: 4c1d0600
+    transform10:
+      data:
+        first: 1
+        second: 248b0100
+      data:
+        first: 4
+        second: 041f0600
+    transform100:
+      data:
+        first: 1
+        second: de890100
+      data:
+        first: 4
+        second: be1d0600
+    transform101:
+      data:
+        first: 1
+        second: e2890100
+      data:
+        first: 4
+        second: c21d0600
+    transform102:
+      data:
+        first: 1
+        second: e6890100
+      data:
+        first: 4
+        second: c61d0600
+    transform103:
+      data:
+        first: 1
+        second: ea890100
+      data:
+        first: 4
+        second: ca1d0600
+    transform104:
+      data:
+        first: 1
+        second: ee890100
+      data:
+        first: 4
+        second: ce1d0600
+    transform105:
+      data:
+        first: 1
+        second: f2890100
+      data:
+        first: 4
+        second: d21d0600
+    transform106:
+      data:
+        first: 1
+        second: f6890100
+      data:
+        first: 4
+        second: d61d0600
+    transform107:
+      data:
+        first: 1
+        second: fa890100
+      data:
+        first: 4
+        second: da1d0600
+    transform108:
+      data:
+        first: 1
+        second: fe890100
+      data:
+        first: 4
+        second: de1d0600
+    transform109:
+      data:
+        first: 1
+        second: 028a0100
+      data:
+        first: 4
+        second: e21d0600
+    transform11:
+      data:
+        first: 1
+        second: 208b0100
+      data:
+        first: 4
+        second: 001f0600
+    transform110:
+      data:
+        first: 1
+        second: 068a0100
+      data:
+        first: 4
+        second: e61d0600
+    transform111:
+      data:
+        first: 1
+        second: 0a8a0100
+      data:
+        first: 4
+        second: ea1d0600
+    transform112:
+      data:
+        first: 1
+        second: 0e8a0100
+      data:
+        first: 4
+        second: ee1d0600
+    transform113:
+      data:
+        first: 1
+        second: 128a0100
+      data:
+        first: 4
+        second: f21d0600
+    transform114:
+      data:
+        first: 1
+        second: 168a0100
+      data:
+        first: 4
+        second: f61d0600
+    transform115:
+      data:
+        first: 1
+        second: 1a8a0100
+      data:
+        first: 4
+        second: fa1d0600
+    transform116:
+      data:
+        first: 1
+        second: 1e8a0100
+      data:
+        first: 4
+        second: fe1d0600
+    transform117:
+      data:
+        first: 1
+        second: 228a0100
+      data:
+        first: 4
+        second: 021e0600
+    transform118:
+      data:
+        first: 1
+        second: 268a0100
+      data:
+        first: 4
+        second: 061e0600
+    transform119:
+      data:
+        first: 1
+        second: 2a8a0100
+      data:
+        first: 4
+        second: 0a1e0600
+    transform12:
+      data:
+        first: 1
+        second: c88a0100
+      data:
+        first: 4
+        second: a81e0600
+    transform120:
+      data:
+        first: 1
+        second: 2e8a0100
+      data:
+        first: 4
+        second: 0e1e0600
+    transform121:
+      data:
+        first: 1
+        second: 328a0100
+      data:
+        first: 4
+        second: 121e0600
+    transform122:
+      data:
+        first: 1
+        second: 368a0100
+      data:
+        first: 4
+        second: 161e0600
+    transform123:
+      data:
+        first: 1
+        second: 3a8a0100
+      data:
+        first: 4
+        second: 1a1e0600
+    transform124:
+      data:
+        first: 1
+        second: 3e8a0100
+      data:
+        first: 4
+        second: 1e1e0600
+    transform125:
+      data:
+        first: 1
+        second: 428a0100
+      data:
+        first: 4
+        second: 221e0600
+    transform126:
+      data:
+        first: 1
+        second: 468a0100
+      data:
+        first: 4
+        second: 261e0600
+    transform127:
+      data:
+        first: 1
+        second: 5c8b0100
+      data:
+        first: 4
+        second: 3c1f0600
+    transform128:
+      data:
+        first: 1
+        second: 5e8b0100
+      data:
+        first: 4
+        second: 3e1f0600
+    transform129:
+      data:
+        first: 1
+        second: 7e8b0100
+      data:
+        first: 4
+        second: 5e1f0600
+    transform13:
+      data:
+        first: 1
+        second: dc8a0100
+      data:
+        first: 4
+        second: bc1e0600
+    transform130:
+      data:
+        first: 1
+        second: 788b0100
+      data:
+        first: 4
+        second: 581f0600
+    transform131:
+      data:
+        first: 1
+        second: 608b0100
+      data:
+        first: 4
+        second: 401f0600
+    transform132:
+      data:
+        first: 1
+        second: 6a8b0100
+      data:
+        first: 4
+        second: 4a1f0600
+    transform133:
+      data:
+        first: 1
+        second: 6e8b0100
+      data:
+        first: 4
+        second: 4e1f0600
+    transform134:
+      data:
+        first: 1
+        second: 668b0100
+      data:
+        first: 4
+        second: 461f0600
+    transform135:
+      data:
+        first: 1
+        second: 728b0100
+      data:
+        first: 4
+        second: 521f0600
+    transform136:
+      data:
+        first: 1
+        second: ac8b0100
+      data:
+        first: 4
+        second: 8c1f0600
+    transform137:
+      data:
+        first: 1
+        second: 82870100
+      data:
+        first: 4
+        second: 621b0600
+    transform138:
+      data:
+        first: 1
+        second: 7a870100
+      data:
+        first: 4
+        second: 5a1b0600
+    transform139:
+      data:
+        first: 1
+        second: 7e870100
+      data:
+        first: 4
+        second: 5e1b0600
+    transform14:
+      data:
+        first: 1
+        second: d88a0100
+      data:
+        first: 4
+        second: b81e0600
+    transform140:
+      data:
+        first: 1
+        second: 86870100
+      data:
+        first: 4
+        second: 661b0600
+    transform141:
+      data:
+        first: 1
+        second: a28b0100
+      data:
+        first: 4
+        second: 821f0600
+    transform142:
+      data:
+        first: 1
+        second: 74870100
+      data:
+        first: 4
+        second: 541b0600
+    transform143:
+      data:
+        first: 1
+        second: 70870100
+      data:
+        first: 4
+        second: 501b0600
+    transform144:
+      data:
+        first: 1
+        second: 628b0100
+      data:
+        first: 4
+        second: 421f0600
+    transform145:
+      data:
+        first: 1
+        second: 9a8b0100
+      data:
+        first: 4
+        second: 7a1f0600
+    transform146:
+      data:
+        first: 1
+        second: 9e8b0100
+      data:
+        first: 4
+        second: 7e1f0600
+    transform147:
+      data:
+        first: 1
+        second: b08b0100
+      data:
+        first: 4
+        second: 901f0600
+    transform148:
+      data:
+        first: 1
+        second: 66870100
+      data:
+        first: 4
+        second: 461b0600
+    transform149:
+      data:
+        first: 1
+        second: 6a870100
+      data:
+        first: 4
+        second: 4a1b0600
+    transform15:
+      data:
+        first: 1
+        second: c08a0100
+      data:
+        first: 4
+        second: a01e0600
+    transform150:
+      data:
+        first: 1
+        second: 488b0100
+      data:
+        first: 4
+        second: 281f0600
+    transform151:
+      data:
+        first: 1
+        second: 508b0100
+      data:
+        first: 4
+        second: 301f0600
+    transform152:
+      data:
+        first: 1
+        second: 588b0100
+      data:
+        first: 4
+        second: 381f0600
+    transform153:
+      data:
+        first: 1
+        second: 868b0100
+      data:
+        first: 4
+        second: 661f0600
+    transform154:
+      data:
+        first: 1
+        second: 8e8b0100
+      data:
+        first: 4
+        second: 6e1f0600
+    transform155:
+      data:
+        first: 1
+        second: c0870100
+      data:
+        first: 4
+        second: a01b0600
+    transform156:
+      data:
+        first: 1
+        second: 4a890100
+      data:
+        first: 4
+        second: 2a1d0600
+    transform157:
+      data:
+        first: 1
+        second: c2870100
+      data:
+        first: 4
+        second: a21b0600
+    transform158:
+      data:
+        first: 1
+        second: c6870100
+      data:
+        first: 4
+        second: a61b0600
+    transform159:
+      data:
+        first: 1
+        second: ca870100
+      data:
+        first: 4
+        second: aa1b0600
+    transform16:
+      data:
+        first: 1
+        second: 988a0100
+      data:
+        first: 4
+        second: 781e0600
+    transform160:
+      data:
+        first: 1
+        second: ce870100
+      data:
+        first: 4
+        second: ae1b0600
+    transform161:
+      data:
+        first: 1
+        second: d2870100
+      data:
+        first: 4
+        second: b21b0600
+    transform162:
+      data:
+        first: 1
+        second: d6870100
+      data:
+        first: 4
+        second: b61b0600
+    transform163:
+      data:
+        first: 1
+        second: da870100
+      data:
+        first: 4
+        second: ba1b0600
+    transform164:
+      data:
+        first: 1
+        second: de870100
+      data:
+        first: 4
+        second: be1b0600
+    transform165:
+      data:
+        first: 1
+        second: e2870100
+      data:
+        first: 4
+        second: c21b0600
+    transform166:
+      data:
+        first: 1
+        second: e6870100
+      data:
+        first: 4
+        second: c61b0600
+    transform167:
+      data:
+        first: 1
+        second: ea870100
+      data:
+        first: 4
+        second: ca1b0600
+    transform168:
+      data:
+        first: 1
+        second: ee870100
+      data:
+        first: 4
+        second: ce1b0600
+    transform169:
+      data:
+        first: 1
+        second: f2870100
+      data:
+        first: 4
+        second: d21b0600
+    transform17:
+      data:
+        first: 1
+        second: a08a0100
+      data:
+        first: 4
+        second: 801e0600
+    transform170:
+      data:
+        first: 1
+        second: f6870100
+      data:
+        first: 4
+        second: d61b0600
+    transform171:
+      data:
+        first: 1
+        second: fa870100
+      data:
+        first: 4
+        second: da1b0600
+    transform172:
+      data:
+        first: 1
+        second: fe870100
+      data:
+        first: 4
+        second: de1b0600
+    transform173:
+      data:
+        first: 1
+        second: 02880100
+      data:
+        first: 4
+        second: e21b0600
+    transform174:
+      data:
+        first: 1
+        second: 08880100
+      data:
+        first: 4
+        second: e81b0600
+    transform175:
+      data:
+        first: 1
+        second: 0c880100
+      data:
+        first: 4
+        second: ec1b0600
+    transform176:
+      data:
+        first: 1
+        second: 10880100
+      data:
+        first: 4
+        second: f01b0600
+    transform177:
+      data:
+        first: 1
+        second: 14880100
+      data:
+        first: 4
+        second: f41b0600
+    transform178:
+      data:
+        first: 1
+        second: 1a880100
+      data:
+        first: 4
+        second: fa1b0600
+    transform179:
+      data:
+        first: 1
+        second: 1e880100
+      data:
+        first: 4
+        second: fe1b0600
+    transform18:
+      data:
+        first: 1
+        second: b88a0100
+      data:
+        first: 4
+        second: 981e0600
+    transform180:
+      data:
+        first: 1
+        second: 22880100
+      data:
+        first: 4
+        second: 021c0600
+    transform181:
+      data:
+        first: 1
+        second: 26880100
+      data:
+        first: 4
+        second: 061c0600
+    transform182:
+      data:
+        first: 1
+        second: 2a880100
+      data:
+        first: 4
+        second: 0a1c0600
+    transform183:
+      data:
+        first: 1
+        second: 2e880100
+      data:
+        first: 4
+        second: 0e1c0600
+    transform184:
+      data:
+        first: 1
+        second: 32880100
+      data:
+        first: 4
+        second: 121c0600
+    transform185:
+      data:
+        first: 1
+        second: 36880100
+      data:
+        first: 4
+        second: 161c0600
+    transform186:
+      data:
+        first: 1
+        second: 3a880100
+      data:
+        first: 4
+        second: 1a1c0600
+    transform187:
+      data:
+        first: 1
+        second: 3e880100
+      data:
+        first: 4
+        second: 1e1c0600
+    transform188:
+      data:
+        first: 1
+        second: 42880100
+      data:
+        first: 4
+        second: 221c0600
+    transform189:
+      data:
+        first: 1
+        second: 46880100
+      data:
+        first: 4
+        second: 261c0600
+    transform19:
+      data:
+        first: 1
+        second: 0c8b0100
+      data:
+        first: 4
+        second: ec1e0600
+    transform190:
+      data:
+        first: 1
+        second: 4a880100
+      data:
+        first: 4
+        second: 2a1c0600
+    transform191:
+      data:
+        first: 1
+        second: 4e880100
+      data:
+        first: 4
+        second: 2e1c0600
+    transform192:
+      data:
+        first: 1
+        second: 52880100
+      data:
+        first: 4
+        second: 321c0600
+    transform193:
+      data:
+        first: 1
+        second: 56880100
+      data:
+        first: 4
+        second: 361c0600
+    transform194:
+      data:
+        first: 1
+        second: 5a880100
+      data:
+        first: 4
+        second: 3a1c0600
+    transform195:
+      data:
+        first: 1
+        second: 5e880100
+      data:
+        first: 4
+        second: 3e1c0600
+    transform196:
+      data:
+        first: 1
+        second: 62880100
+      data:
+        first: 4
+        second: 421c0600
+    transform197:
+      data:
+        first: 1
+        second: 66880100
+      data:
+        first: 4
+        second: 461c0600
+    transform198:
+      data:
+        first: 1
+        second: 6c880100
+      data:
+        first: 4
+        second: 4c1c0600
+    transform199:
+      data:
+        first: 1
+        second: 70880100
+      data:
+        first: 4
+        second: 501c0600
+    transform2:
+      data:
+        first: 1
+        second: 6c8c0100
+      data:
+        first: 4
+        second: 4c200600
+    transform20:
+      data:
+        first: 1
+        second: 2c8b0100
+      data:
+        first: 4
+        second: 0c1f0600
+    transform200:
+      data:
+        first: 1
+        second: 74880100
+      data:
+        first: 4
+        second: 541c0600
+    transform201:
+      data:
+        first: 1
+        second: 78880100
+      data:
+        first: 4
+        second: 581c0600
+    transform202:
+      data:
+        first: 1
+        second: 7e880100
+      data:
+        first: 4
+        second: 5e1c0600
+    transform203:
+      data:
+        first: 1
+        second: 82880100
+      data:
+        first: 4
+        second: 621c0600
+    transform204:
+      data:
+        first: 1
+        second: 86880100
+      data:
+        first: 4
+        second: 661c0600
+    transform205:
+      data:
+        first: 1
+        second: 8a880100
+      data:
+        first: 4
+        second: 6a1c0600
+    transform206:
+      data:
+        first: 1
+        second: 8e880100
+      data:
+        first: 4
+        second: 6e1c0600
+    transform207:
+      data:
+        first: 1
+        second: 92880100
+      data:
+        first: 4
+        second: 721c0600
+    transform208:
+      data:
+        first: 1
+        second: 96880100
+      data:
+        first: 4
+        second: 761c0600
+    transform209:
+      data:
+        first: 1
+        second: 9a880100
+      data:
+        first: 4
+        second: 7a1c0600
+    transform21:
+      data:
+        first: 1
+        second: a48a0100
+      data:
+        first: 4
+        second: 841e0600
+    transform210:
+      data:
+        first: 1
+        second: 9e880100
+      data:
+        first: 4
+        second: 7e1c0600
+    transform211:
+      data:
+        first: 1
+        second: a2880100
+      data:
+        first: 4
+        second: 821c0600
+    transform212:
+      data:
+        first: 1
+        second: a6880100
+      data:
+        first: 4
+        second: 861c0600
+    transform213:
+      data:
+        first: 1
+        second: aa880100
+      data:
+        first: 4
+        second: 8a1c0600
+    transform214:
+      data:
+        first: 1
+        second: ae880100
+      data:
+        first: 4
+        second: 8e1c0600
+    transform215:
+      data:
+        first: 1
+        second: b2880100
+      data:
+        first: 4
+        second: 921c0600
+    transform216:
+      data:
+        first: 1
+        second: b6880100
+      data:
+        first: 4
+        second: 961c0600
+    transform217:
+      data:
+        first: 1
+        second: ba880100
+      data:
+        first: 4
+        second: 9a1c0600
+    transform218:
+      data:
+        first: 1
+        second: be880100
+      data:
+        first: 4
+        second: 9e1c0600
+    transform219:
+      data:
+        first: 1
+        second: c2880100
+      data:
+        first: 4
+        second: a21c0600
+    transform22:
+      data:
+        first: 1
+        second: 288b0100
+      data:
+        first: 4
+        second: 081f0600
+    transform220:
+      data:
+        first: 1
+        second: c6880100
+      data:
+        first: 4
+        second: a61c0600
+    transform221:
+      data:
+        first: 1
+        second: cc880100
+      data:
+        first: 4
+        second: ac1c0600
+    transform222:
+      data:
+        first: 1
+        second: d0880100
+      data:
+        first: 4
+        second: b01c0600
+    transform223:
+      data:
+        first: 1
+        second: d4880100
+      data:
+        first: 4
+        second: b41c0600
+    transform224:
+      data:
+        first: 1
+        second: d8880100
+      data:
+        first: 4
+        second: b81c0600
+    transform225:
+      data:
+        first: 1
+        second: de880100
+      data:
+        first: 4
+        second: be1c0600
+    transform226:
+      data:
+        first: 1
+        second: e2880100
+      data:
+        first: 4
+        second: c21c0600
+    transform227:
+      data:
+        first: 1
+        second: e6880100
+      data:
+        first: 4
+        second: c61c0600
+    transform228:
+      data:
+        first: 1
+        second: ea880100
+      data:
+        first: 4
+        second: ca1c0600
+    transform229:
+      data:
+        first: 1
+        second: ee880100
+      data:
+        first: 4
+        second: ce1c0600
+    transform23:
+      data:
+        first: 1
+        second: 888a0100
+      data:
+        first: 4
+        second: 681e0600
+    transform230:
+      data:
+        first: 1
+        second: f2880100
+      data:
+        first: 4
+        second: d21c0600
+    transform231:
+      data:
+        first: 1
+        second: f6880100
+      data:
+        first: 4
+        second: d61c0600
+    transform232:
+      data:
+        first: 1
+        second: fa880100
+      data:
+        first: 4
+        second: da1c0600
+    transform233:
+      data:
+        first: 1
+        second: fe880100
+      data:
+        first: 4
+        second: de1c0600
+    transform234:
+      data:
+        first: 1
+        second: 02890100
+      data:
+        first: 4
+        second: e21c0600
+    transform235:
+      data:
+        first: 1
+        second: 06890100
+      data:
+        first: 4
+        second: e61c0600
+    transform236:
+      data:
+        first: 1
+        second: 0a890100
+      data:
+        first: 4
+        second: ea1c0600
+    transform237:
+      data:
+        first: 1
+        second: 0e890100
+      data:
+        first: 4
+        second: ee1c0600
+    transform238:
+      data:
+        first: 1
+        second: 12890100
+      data:
+        first: 4
+        second: f21c0600
+    transform239:
+      data:
+        first: 1
+        second: 16890100
+      data:
+        first: 4
+        second: f61c0600
+    transform24:
+      data:
+        first: 1
+        second: 1c8b0100
+      data:
+        first: 4
+        second: fc1e0600
+    transform240:
+      data:
+        first: 1
+        second: 1a890100
+      data:
+        first: 4
+        second: fa1c0600
+    transform241:
+      data:
+        first: 1
+        second: 1e890100
+      data:
+        first: 4
+        second: fe1c0600
+    transform242:
+      data:
+        first: 1
+        second: 22890100
+      data:
+        first: 4
+        second: 021d0600
+    transform243:
+      data:
+        first: 1
+        second: 26890100
+      data:
+        first: 4
+        second: 061d0600
+    transform244:
+      data:
+        first: 1
+        second: 2c890100
+      data:
+        first: 4
+        second: 0c1d0600
+    transform245:
+      data:
+        first: 1
+        second: 30890100
+      data:
+        first: 4
+        second: 101d0600
+    transform246:
+      data:
+        first: 1
+        second: 34890100
+      data:
+        first: 4
+        second: 141d0600
+    transform247:
+      data:
+        first: 1
+        second: 38890100
+      data:
+        first: 4
+        second: 181d0600
+    transform248:
+      data:
+        first: 1
+        second: 3e890100
+      data:
+        first: 4
+        second: 1e1d0600
+    transform249:
+      data:
+        first: 1
+        second: 42890100
+      data:
+        first: 4
+        second: 221d0600
+    transform25:
+      data:
+        first: 1
+        second: 088b0100
+      data:
+        first: 4
+        second: e81e0600
+    transform250:
+      data:
+        first: 1
+        second: 46890100
+      data:
+        first: 4
+        second: 261d0600
+    transform251:
+      data:
+        first: 1
+        second: b48b0100
+      data:
+        first: 4
+        second: 941f0600
+    transform252:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+    transform253:
+      data:
+        first: 1
+        second: 448c0100
+      data:
+        first: 4
+        second: 24200600
+    transform254:
+      data:
+        first: 1
+        second: 60870100
+      data:
+        first: 4
+        second: 401b0600
+    transform255:
+      data:
+        first: 1
+        second: 968b0100
+      data:
+        first: 4
+        second: 761f0600
+    transform256:
+      data:
+        first: 1
+        second: a88b0100
+      data:
+        first: 4
+        second: 881f0600
+    transform26:
+      data:
+        first: 1
+        second: e88a0100
+      data:
+        first: 4
+        second: c81e0600
+    transform27:
+      data:
+        first: 1
+        second: fc8a0100
+      data:
+        first: 4
+        second: dc1e0600
+    transform28:
+      data:
+        first: 1
+        second: ec8a0100
+      data:
+        first: 4
+        second: cc1e0600
+    transform29:
+      data:
+        first: 1
+        second: f88a0100
+      data:
+        first: 4
+        second: d81e0600
+    transform3:
+      data:
+        first: 1
+        second: 78890100
+      data:
+        first: 4
+        second: 581d0600
+    transform30:
+      data:
+        first: 1
+        second: 9c8a0100
+      data:
+        first: 4
+        second: 7c1e0600
+    transform31:
+      data:
+        first: 1
+        second: d48a0100
+      data:
+        first: 4
+        second: b41e0600
+    transform32:
+      data:
+        first: 1
+        second: 008b0100
+      data:
+        first: 4
+        second: e01e0600
+    transform33:
+      data:
+        first: 1
+        second: bc8a0100
+      data:
+        first: 4
+        second: 9c1e0600
+    transform34:
+      data:
+        first: 1
+        second: d08a0100
+      data:
+        first: 4
+        second: b01e0600
+    transform35:
+      data:
+        first: 1
+        second: c48a0100
+      data:
+        first: 4
+        second: a41e0600
+    transform36:
+      data:
+        first: 1
+        second: f48a0100
+      data:
+        first: 4
+        second: d41e0600
+    transform37:
+      data:
+        first: 1
+        second: 908a0100
+      data:
+        first: 4
+        second: 701e0600
+    transform38:
+      data:
+        first: 1
+        second: e48a0100
+      data:
+        first: 4
+        second: c41e0600
+    transform39:
+      data:
+        first: 1
+        second: 048b0100
+      data:
+        first: 4
+        second: e41e0600
+    transform4:
+      data:
+        first: 1
+        second: 3c8c0100
+      data:
+        first: 4
+        second: 1c200600
+    transform40:
+      data:
+        first: 1
+        second: e08a0100
+      data:
+        first: 4
+        second: c01e0600
+    transform41:
+      data:
+        first: 1
+        second: cc8a0100
+      data:
+        first: 4
+        second: ac1e0600
+    transform42:
+      data:
+        first: 1
+        second: 108b0100
+      data:
+        first: 4
+        second: f01e0600
+    transform43:
+      data:
+        first: 1
+        second: 308b0100
+      data:
+        first: 4
+        second: 101f0600
+    transform44:
+      data:
+        first: 1
+        second: 148b0100
+      data:
+        first: 4
+        second: f41e0600
+    transform45:
+      data:
+        first: 1
+        second: 8c8a0100
+      data:
+        first: 4
+        second: 6c1e0600
+    transform46:
+      data:
+        first: 1
+        second: 188b0100
+      data:
+        first: 4
+        second: f81e0600
+    transform47:
+      data:
+        first: 1
+        second: b08a0100
+      data:
+        first: 4
+        second: 901e0600
+    transform48:
+      data:
+        first: 1
+        second: ac8a0100
+      data:
+        first: 4
+        second: 8c1e0600
+    transform49:
+      data:
+        first: 1
+        second: 948a0100
+      data:
+        first: 4
+        second: 741e0600
+    transform5:
+      data:
+        first: 1
+        second: 748c0100
+      data:
+        first: 4
+        second: 54200600
+    transform50:
+      data:
+        first: 1
+        second: a8870100
+      data:
+        first: 4
+        second: 881b0600
+    transform51:
+      data:
+        first: 1
+        second: a4870100
+      data:
+        first: 4
+        second: 841b0600
+    transform52:
+      data:
+        first: 1
+        second: a0870100
+      data:
+        first: 4
+        second: 801b0600
+    transform53:
+      data:
+        first: 1
+        second: f08a0100
+      data:
+        first: 4
+        second: d01e0600
+    transform54:
+      data:
+        first: 1
+        second: b48a0100
+      data:
+        first: 4
+        second: 941e0600
+    transform55:
+      data:
+        first: 1
+        second: a88a0100
+      data:
+        first: 4
+        second: 881e0600
+    transform56:
+      data:
+        first: 1
+        second: 98870100
+      data:
+        first: 4
+        second: 781b0600
+    transform57:
+      data:
+        first: 1
+        second: 9c870100
+      data:
+        first: 4
+        second: 7c1b0600
+    transform58:
+      data:
+        first: 1
+        second: 7e890100
+      data:
+        first: 4
+        second: 5e1d0600
+    transform59:
+      data:
+        first: 1
+        second: 768a0100
+      data:
+        first: 4
+        second: 561e0600
+    transform6:
+      data:
+        first: 1
+        second: b4870100
+      data:
+        first: 4
+        second: 941b0600
+    transform60:
+      data:
+        first: 1
+        second: 74890100
+      data:
+        first: 4
+        second: 541d0600
+    transform61:
+      data:
+        first: 1
+        second: 668a0100
+      data:
+        first: 4
+        second: 461e0600
+    transform62:
+      data:
+        first: 1
+        second: 7a8a0100
+      data:
+        first: 4
+        second: 5a1e0600
+    transform63:
+      data:
+        first: 1
+        second: 92870100
+      data:
+        first: 4
+        second: 721b0600
+    transform64:
+      data:
+        first: 1
+        second: 728a0100
+      data:
+        first: 4
+        second: 521e0600
+    transform65:
+      data:
+        first: 1
+        second: 568a0100
+      data:
+        first: 4
+        second: 361e0600
+    transform66:
+      data:
+        first: 1
+        second: 5a8a0100
+      data:
+        first: 4
+        second: 3a1e0600
+    transform67:
+      data:
+        first: 1
+        second: 628a0100
+      data:
+        first: 4
+        second: 421e0600
+    transform68:
+      data:
+        first: 1
+        second: 528a0100
+      data:
+        first: 4
+        second: 321e0600
+    transform69:
+      data:
+        first: 1
+        second: 8e870100
+      data:
+        first: 4
+        second: 6e1b0600
+    transform7:
+      data:
+        first: 1
+        second: ae870100
+      data:
+        first: 4
+        second: 8e1b0600
+    transform70:
+      data:
+        first: 1
+        second: 4c8a0100
+      data:
+        first: 4
+        second: 2c1e0600
+    transform71:
+      data:
+        first: 1
+        second: 828a0100
+      data:
+        first: 4
+        second: 621e0600
+    transform72:
+      data:
+        first: 1
+        second: 6e8a0100
+      data:
+        first: 4
+        second: 4e1e0600
+    transform73:
+      data:
+        first: 1
+        second: 5e8a0100
+      data:
+        first: 4
+        second: 3e1e0600
+    transform74:
+      data:
+        first: 1
+        second: 7e8a0100
+      data:
+        first: 4
+        second: 5e1e0600
+    transform75:
+      data:
+        first: 1
+        second: 6a8a0100
+      data:
+        first: 4
+        second: 4a1e0600
+    transform76:
+      data:
+        first: 1
+        second: 80890100
+      data:
+        first: 4
+        second: 601d0600
+    transform77:
+      data:
+        first: 1
+        second: 82890100
+      data:
+        first: 4
+        second: 621d0600
+    transform78:
+      data:
+        first: 1
+        second: 86890100
+      data:
+        first: 4
+        second: 661d0600
+    transform79:
+      data:
+        first: 1
+        second: 8a890100
+      data:
+        first: 4
+        second: 6a1d0600
+    transform8:
+      data:
+        first: 1
+        second: 708c0100
+      data:
+        first: 4
+        second: 50200600
+    transform80:
+      data:
+        first: 1
+        second: 8e890100
+      data:
+        first: 4
+        second: 6e1d0600
+    transform81:
+      data:
+        first: 1
+        second: 92890100
+      data:
+        first: 4
+        second: 721d0600
+    transform82:
+      data:
+        first: 1
+        second: 96890100
+      data:
+        first: 4
+        second: 761d0600
+    transform83:
+      data:
+        first: 1
+        second: 9a890100
+      data:
+        first: 4
+        second: 7a1d0600
+    transform84:
+      data:
+        first: 1
+        second: 9e890100
+      data:
+        first: 4
+        second: 7e1d0600
+    transform85:
+      data:
+        first: 1
+        second: a2890100
+      data:
+        first: 4
+        second: 821d0600
+    transform86:
+      data:
+        first: 1
+        second: a6890100
+      data:
+        first: 4
+        second: 861d0600
+    transform87:
+      data:
+        first: 1
+        second: aa890100
+      data:
+        first: 4
+        second: 8a1d0600
+    transform88:
+      data:
+        first: 1
+        second: ae890100
+      data:
+        first: 4
+        second: 8e1d0600
+    transform89:
+      data:
+        first: 1
+        second: b2890100
+      data:
+        first: 4
+        second: 921d0600
+    transform9:
+      data:
+        first: 1
+        second: 7c890100
+      data:
+        first: 4
+        second: 5c1d0600
+    transform90:
+      data:
+        first: 1
+        second: b6890100
+      data:
+        first: 4
+        second: 961d0600
+    transform91:
+      data:
+        first: 1
+        second: ba890100
+      data:
+        first: 4
+        second: 9a1d0600
+    transform92:
+      data:
+        first: 1
+        second: be890100
+      data:
+        first: 4
+        second: 9e1d0600
+    transform93:
+      data:
+        first: 1
+        second: c2890100
+      data:
+        first: 4
+        second: a21d0600
+    transform94:
+      data:
+        first: 1
+        second: c6890100
+      data:
+        first: 4
+        second: a61d0600
+    transform95:
+      data:
+        first: 1
+        second: ca890100
+      data:
+        first: 4
+        second: aa1d0600
+    transform96:
+      data:
+        first: 1
+        second: ce890100
+      data:
+        first: 4
+        second: ae1d0600
+    transform97:
+      data:
+        first: 1
+        second: d2890100
+      data:
+        first: 4
+        second: b21d0600
+    transform98:
+      data:
+        first: 1
+        second: d6890100
+      data:
+        first: 4
+        second: b61d0600
+    transform99:
+      data:
+        first: 1
+        second: da890100
+      data:
+        first: 4
+        second: ba1d0600
